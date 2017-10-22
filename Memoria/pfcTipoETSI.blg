@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: pfcTipoETSI.aux
+A level-1 auxiliary file: agradecimientos/agradecimientos.aux
+A level-1 auxiliary file: resumen/resumen.aux
+A level-1 auxiliary file: notacion/notacion.aux
+A level-1 auxiliary file: introduccion/introduccion.aux
+The style file: amsplain.bst
+Database file #1: biblio/biblio.bib
+Warning--I didn't find a database entry for "Kilbanov2006"
+Warning--missing journal name in Postema2005
+Warning--missing journal name in Sadatomi2005
+You've used 10 entries,
+            2213 wiz_defined-function locations,
+            584 strings with 6104 characters,
+and the built_in function-call counts, 3590 in all, are:
+= -- 338
+> -- 167
+< -- 0
++ -- 66
+- -- 56
+* -- 359
+:= -- 577
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 59
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 110
+empty$ -- 286
+format.name$ -- 56
+if$ -- 716
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 20
+newline$ -- 40
+num.names$ -- 19
+pop$ -- 61
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 51
+stack$ -- 0
+substring$ -- 315
+swap$ -- 12
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 2
+while$ -- 39
+width$ -- 12
+write$ -- 97
+(There were 3 warnings)

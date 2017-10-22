@@ -1,0 +1,15 @@
+\select@language {spanish}
+\select@language {spanish}
+\contentsline {listasf}{Resumen}{III}{section*.4}
+\contentsline {listasf}{Abstract}{V}{section*.6}
+\contentsline {listasf}{\IeC {\'I}ndice Abreviado}{VII}{section*.7}
+\contentsline {listasf}{Notaci{\'o}n}{XI}{section*.12}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Fundamentos de la generaci\IeC {\'o}n de burbujas}{2}{section.1.1}
+\mbox {}\hspace *{0pt}\par 
+\contentsline {listasb}{{\'I}ndice de Figuras}{3}{section*.13}
+\contentsline {listasb}{{\'I}ndice de Tablas}{5}{section*.15}
+\contentsline {listasb}{{\'I}ndice de C{\'o}digos}{7}{section*.17}
+\contentsline {listasb}{Bibliograf\'{\i }a}{9}{section*.19}
+\contentsline {listasb}{\'{I}ndice alfab\'{e}tico}{11}{section*.21}
+\contentsline {listasb}{Glosario}{11}{section*.22}

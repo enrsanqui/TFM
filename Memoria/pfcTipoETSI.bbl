@@ -1,0 +1,63 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{Ferrara2007}
+Katherine Ferrara, Rachel Pollard, and Mark Borden, \emph{{Ultrasound
+  Microbubble Contrast Agents: Fundamentals and Application to Gene and Drug
+  Delivery}}, Annual Review of Biomedical Engineering \textbf{9} (2007),
+  415--447.
+
+\bibitem{Garcia-Ochoa2005}
+Felix Garcia-Ochoa and Emilio Gomez, \emph{{Prediction of gas-liquid mass
+  transfer coefficient in sparged stirred tank bioreactors}}, Biotechnology and
+  Bioengineering \textbf{92} (2005), no.~6, 761--772.
+
+\bibitem{Garcia-Ochoa2009}
+\bysame, \emph{{Bioreactor scale-up and oxygen transfer rate in microbial
+  processes: an overview.}}, Biotechnology advances \textbf{27} (2009), no.~2,
+  153--76.
+
+\bibitem{Kawahara2009}
+Akimaro Kawahara, Michio Sadatomi, Fuminori Matsuyama, and Hidetoshi Matsuura,
+  \emph{{Prediction of micro-bubble dissolution characteristics in water and
+  seawater}}, Experimental Thermal and Fluid Science \textbf{33} (2009), no.~5,
+  883--894.
+
+\bibitem{Postema2005}
+Michiel Postema and A~Imaging Applications, \emph{{Ultrasound-Induced Gas
+  Release from Contrast Agent Microbubbles}},  \textbf{52} (2005), no.~6,
+  1035--1041.
+
+\bibitem{Rodriguez-Rodriguez2015b}
+Javier Rodr{\'{i}}guez-Rodr{\'{i}}guez, Alejandro Sevilla, Carlos
+  Mart{\'{i}}nez-Baz{\'{a}}n, and Jos{\'{e}}~Manuel Gordillo, \emph{{Generation
+  of Microbubbles with Applications to Industry and Medicine}}, Annual Review
+  of Fluid Mechanics \textbf{47} (2015), no.~September, 405--429.
+
+\bibitem{Rosso2008}
+Diego Rosso, Lory~E. Larson, and Michael~K. Stenstrom, \emph{{Aeration of
+  large-scale municipal wastewater treatment plants: State of the art}}, Water
+  Science and Technology \textbf{57} (2008), no.~7, 973--978.
+
+\bibitem{Sadatomi2005}
+M~Sadatomi, \emph{{Performance of a new micro-bubble generator with a spherical
+  body in a flowing water tube}},  \textbf{29} (2005), 615--623.
+
+\bibitem{Sander2017}
+S.~Sander, J.~Behnisch, and M.~Wagner, \emph{{Design of fine-bubble aeration
+  systems for municipal WWTPs with high sea salt concentrations}}, Water
+  Science and Technology \textbf{75} (2017), no.~7, 1555--1563.
+
+\bibitem{Terasaka2011}
+Koichi Terasaka, Ai~Hirabayashi, Takanori Nishino, Satoko Fujioka, and Daisuke
+  Kobayashi, \emph{{Development of microbubble aerator for waste water
+  treatment using aerobic activated sludge}}, Chemical Engineering Science
+  \textbf{66} (2011), no.~14, 3172--3179.
+
+\end{thebibliography}
