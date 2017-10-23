@@ -13,3 +13,25 @@ Como puede observarse, las exigencias de las industrias actuales, que requieren 
 
 \section{Fundamentos de la generación de burbujas}\LABSEC{fundamentos}
 
+Lejos de lo que pudiera intuirse, la generación de burbujas es un proceso con importantes diferencias respecto al procceso de producción de gotas. En general, para generar gotas de radio $r_{d}$ a una frecuencia $f_{d}\sim U/r_{d}$, basta con injectar el líquido a través de un tubo de radio $r_{t}\sim r_{d}$ a una velocidad $U \gtrsim U_{c}$, con $U_{c} = \left[\sigma/\left(\rho g\right)\right]^{1/2}$ la velocidad capilar\footnote{Se remite al lector interesado en la rotura e inestabilidades de chorros líquidos a la excelente revisión~\cite{Eggers2008}}~\cite{Rodriguez-Rodriguez2015b}. 
+
+Sin embargo, en el caso de la formación  de burbujas para estas condiciones, el comportamiento es diferente. Por un lado, en el caso de generación cuasiestática en el que $U \ll U_{c}$, el radio de la burbuja viene dado por el conocido como \emph{radio de Fritz}, que resulta del balance de esfuerzos de tensión superficial con la fuerza de flotación, $r_{F}/r_{t} \sim \left[3/(2Bo)\right]^{1/3}$, con $Bo = \rho g r_{t}^{2}/\sigma$ el número de Bond, que mide la importancia relativa de los esfuerzos de tensión superficial frente a los esfuerzos de volumen  (gravedad/flotación). Sin embargo, si se desea reducir el diámetro de las burbujas o incrementar la frecuencia aumentando la velocidad de inyección del gas a valores por encima de $U_{c}$, lejos de obtener un chorro de radio comparable al del injector, se obtienen (por encima de cierta velocidad) burbujas de volumen $V_{b} \propto \left(Q_{g}/g^{1/2\right)^{6/5}} > 4/3\pi r_{F}^{3}$~\cite{Rodriguez-Rodriguez2015b}, y lo que es más, si se sigue aumentando la velocidad, el fenómeno de coalescencia puede provocar que las burbujas finalmente obtenidas sean mayores~\cite{Higuera2006}. 
+
+Para explicar estas diferencias entre ambos procesos, si se desprecian los efectos dinámicos del gas (ya que $\rho_{g}/\rho \gg 1$ y $\mu_{g}/\mu  \gg 1$), y se considera que la burbuja es prácticamente esférica, con una presión uniforme en su interior, la dinámica de la burbuja puede describirse a través de la ecuación de Rayleigh-Plesset.
+
+\begin{equation}\LABEQ{rayleighPlesset}
+\rho\left(R_{b}\ddot{R}_{b} + \dfrac{3}{2}\dot{R}_{b}^{2}\right) = \Delta p_{exit} - \dfrac{2\sigma}{R_{b}} - 4\mu \dfrac{\dot{R}_{b}}{R_{b}}
+\end{equation}
+
+Tal y como se puede observar en~\cite{Rodriguez-Rordiguez2015b}, para que el crecimiento de la burbuja y su posterior colapso tengan lugar, requiere que el término $\Delta p - 2\sigma/R_{b}$ cambie de positivo, valor que adquire en los primeros instantes mientras la burbuja se infla, a negativo, momento en el que las velocidades negativas cerca del inyector  la harán colapsar. La \EQ{rayleighPlesset} junto con la ecuación de continuidad
+
+\begin{equation}\LABEQ{continuidad}
+Q_{g} = \dfrac{\mathrm{d}V_{b}}{\mathrm{d}t} \simeq 4\pi R_{b}^{2} \dot{R}_{b}
+\end{equation}
+
+y el balance de cantidad de movimiento en la línea de gas
+
+\begin{equation}\LABEQ{continuidad}
+p_{0} - p_{exit} = \rho_{g}K\left(Re_{g}\right)\left[Q_{g}/\left(\pi r_{t}^{2}\right)\right]^{2}
+\end{equation}
+
