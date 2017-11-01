@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  24 OCT 2017 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.11)  25 OCT 2017 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3473,38 +3473,30 @@ LaTeX Warning: Citation `Higuera2006' on page 2 undefined on input line 18.
 LaTeX Warning: Citation `Rodriguez-Rordiguez2015b' on page 2 undefined on input
  line 26.
 
-LaTeX Font Info:    Try loading font information for TS1+qtm on input line 43.
+Package epstopdf Info: Source file: <introduccion/figuras/esquemaBurbuja.eps>
+(epstopdf)                    date: 2017-10-24 23:29:54
+(epstopdf)                    size: 667815 bytes
+(epstopdf)             Output file: <introduccion/figuras/esquemaBurbuja-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-10-24 23:40:59
+(epstopdf)                    size: 212284 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/esque
+maBurbuja-eps-converted-to.pdf introduccion/figuras/esquemaBurbuja.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf, id=306, pagebox=crop
+box, 457.71pt x 174.6525pt>
+File: introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/esquemaBurbuja-eps-converted-to.p
+df  used on input line 41. on input line 41.
+Package pdftex.def Info: Requested size: 426.79134pt x 162.85953pt on input lin
+e 41.
+LaTeX Font Info:    Try loading font information for TS1+qtm on input line 49.
 (/usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
-
-LaTeX Warning: Reference `fig:esquemaBurbuja' on page 2 undefined on input line
- 44.
-
-
-LaTeX Warning: File `figuras/esquemaBurbuja.pdf' not found on input line 50.
-
-
-! Package pdftex.def Error: File `figuras/esquemaBurbuja.pdf' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ....75\textwidth]{figuras/esquemaBurbuja.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-LaTeX Warning: Reference `eq:rayleighPleseet' on page 2 undefined on input line
- 54.
-
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
 LaTeX Info: Redefining \. on input line 55.
@@ -3524,9 +3516,9 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.163 \include{introduccion/introduccion}
-                                          [3]pdfTeX warning (ext4): destination
- with the same identifier (name{page.4}) has been already used, duplicate ignor
-ed
+                                          [3 <./introduccion/figuras/esquemaBur
+buja-eps-converted-to.pdf>]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.177 \backmatter
@@ -3663,36 +3655,34 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
  68106 strings out of 492990
- 1509869 string characters out of 6135004
- 1960076 words of memory out of 5000000
- 70141 multiletter control sequences out of 15000+600000
- 644372 words of font info for 172 fonts, out of 8000000 for 9000
+ 1510052 string characters out of 6135004
+ 1960022 words of memory out of 5000000
+ 70139 multiletter control sequences out of 15000+600000
+ 644165 words of font info for 172 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
  83i,17n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q
--ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share
-/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/shar
-e/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/publ
-ic/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rs
-fs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (31 pages, 887644 bytes).
+enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre
+/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/te
+xmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pfcTipoETSI.pdf (31 pages, 1075640 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
+ 518 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
  71 named destinations out of 1000 (max. 500000)
- 31017 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 30510 words of extra memory for PDF output out of 35830 (max. 10000000)
 
