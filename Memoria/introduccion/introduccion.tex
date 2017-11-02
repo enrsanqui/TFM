@@ -97,8 +97,32 @@ Tanto los dispositivos con configuraciones de tipo Cross.Flow como los de Coflow
 \subsection{Dispositivos de Flow-Focussing}\LABSSEC{flowfocussing}
 
 
+La sencillez de los dispositivos descritos anteriormente posee un notable inconveniente, pues si se elmina la inyección de gas las líneas de líquido son casi paralelas, con lo que los gradientes de presión existentes son prácticamente despreciables~\cite{Rodriguez-Rodriguez2015b}. La demanda de diámetros cada vez menores de las burbujas hace que sea tecnológicamente inviable reducir tanto como se desee el diámetro del inyector, por lo que otras soluciones han emergido para paliar las limitaciones de las configuraciones de coflow y crossflow; una de ellas, es el empleo de dispositivos de \emph{Flow-Focussing}. En geometrías de flow-focussing como las mostradas en la \FIG{tecnologias}b-c, la presencia del estrechamiento provoca (además de un coflujo de líquido y gas que previene la aparición de coalescencia) un gradiente longitudinal de presión, cuyo efecto principal es el de reducir el diámetro final de las burbujas obtenidas. Los primeros en reportar este fenómeno fueron~\cite{Ganan-Calvo2001a}, obteniendo burbujas de tamaños $d_{b} \mathcal{O}\left(10 \mu m\right) < D$, controlando simplemente el ratio $Q_{g}/Q$  y el caudal de líquido exterior $Q = \pi D^{2} U/4$, con $D$ el diámetro del estrechamiento. En efecto, el papel del gradiente axial de presión es análogo al jugado por la gravedad en el caso de la \EQ{dbestimado}, esto es, tomando $\Delta p_{exit} = \nabla p R_{b}$, y teniendo en cuenta que el gradiente de presión puede ser obtenido de forma estimada de las ecuaciones de Navier-Stokes como
+
+\begin{equation}\LABEQ{focusGradPres}
+\rho \dfrac{D\mathbf{u}}{Dt} = -\nabla p \Rightarrow \nabla p \sim \rho \mathbf{u} \cdot \nabla \mathbf{u} \sim \rho U^{2}/D
+\end{equation}
+
+se tiene, sustituyendo $ \Delta p $ en \eqref{eq:dbestimado},
+
+\begin{equation}\LABEQ{focusDbEstimado}
+\dfrac{d_{b}}{D} \sim \left(\dfrac{Q_{g}}{Q}\right)^{2/5}
+\end{equation}
+
+siendo pues la frecuencia de burbujeo 
+
+\begin{equation}\LABEQ{focusFb}
+f_{b} = \dfrac{6 Q_{g}}{\pi d_{b}^{3}} \propto \dfrac{U}{D}\left(\dfrac{Q_{g}}{Q}\right)^{-1/5}
+\end{equation}
+
+por lo que este dispositivo también permite controlar de forma separada tamaño y frecuencia de producción simplemente a través de la variación de los reatios $Q_{g}/Q$ y de la velocidad del líquido $U$. Uno de los principales escollos en el uso de este tipo de dispositivos se encuentra en la dificultad que supone conseguir un buen alineamiento entre los diferentes canales, lo que introdujo la configuración de la \FIG{tecnologias}c, que permite simplificar esta labor.
 
 
+\subsection{Otros dispositivos y breve reflexión}\LABSSEC{ConclusionDevices}
 
+Existe, además de los descritos en los apartados anteriores, otros dispositivos para generar burubujas de tamaño micrométrico de forma monodispersa, como son aquellos basados en la aplicación de ondas acústicas, tal y como se muestra en la \FIG{tecnologias}e-f, y lo que es más, nada impediría (en principio) combinar estos dispositivos con los anteriores, si se pretende reducir aún ás el diámetro de las burbujas~\cite{Rodriguez-Rodriguez2015b}. A través de los ejemplos más significativos de dispositivos que aquí se han presentado, el lector puede estimar que el tamaño característico de estos dispositivos se encontrará en un rango comprendido entre $\sim \mathcal{O}(10 \mu\, m)$ hasta  $\sim \mathcal{O}\left(10 \,\mathrm{mm}\right)$, lo que a priori puede suponer una dificultad tanto de fabricación como de operación; además, a la dificultad de manejo de los instrumentos microfluídicos habría que sumar la limitación existente en la frecuencia máxima de producción, que estaría limitada por el tamaño de los dispositivos y cuya solución se encontraría en la fabriación de un número mayor de estos. Cabe entonces preguntarse si los mecanismos físicos ya descritos y que subyacen bajo los diferentes procesos de producción de microburbujas aquí presentados van aparajados necesariamente del empleo de dispositivos microfluídicos. En efecto, si bien a lo largo del capítulo se ha podido comprobar que existe una clara dependencia con el diámetro del inyector del gas (lo que apoya la necesidad del empleo de la microfluídica), también es cierto que las condiciones de contorno que el líquido exterior impone sobre la corriente gaseosa, bien únicamente mediante el transporte a la velocidad del líquido de la interfase (coflow y cross-flow) o bien sumando el gradiente longitudinal de presión provocado por un estrechamiento (flow-focussing), no tendrían (en principio) porqué ir ligadas taxativamente al empleo de geometrías micrométricas.  
+
+Así pues, en la siguiente sección de este capítulo se discute con más detalle el papel que el gradiente de presión juega en la formación de burbujas, prestando especial atención para ello en una técnica conocida como \emph{Confined-Selective-Withdrawal} que presenta características comunes tanto a las configuraciones de coflow y flow-focussing. Se pretende así reforzar la idea de la importancia que juega el gradiente de presión en la formación de burbujas para, finalmente, plantear si cabría la posibilidad de plantearse un dispositivo capaz de generar microburbujas monodispersas de forma masiva con dimensiones características mucho mayores que las de los dispositivos empleados actualmente. 
 
 \section{Influencia del gradiente de presión. Analogía aerodinámica}\LABSEC{gradPres}
+

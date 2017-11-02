@@ -10,49 +10,50 @@ Database file #1: biblio/biblio.bib
 Warning--I didn't find a database entry for "Kilbanov2006"
 Warning--I didn't find a database entry for "Higuera2006"
 Warning--I didn't find a database entry for "Rodriguez-Rordiguez2015b"
-Warning--missing pages in Gordillo2007a
+Warning--I didn't find a database entry for "Sevilla2005a"
+Warning--I didn't find a database entry for "Gordillo2007a"
+Warning--I didn't find a database entry for "Suryo2006a"
 Warning--missing journal name in Postema2005
 Warning--missing journal name in Sadatomi2005
-Warning--missing pages in Suryo2006a
-You've used 14 entries,
+You've used 11 entries,
             2213 wiz_defined-function locations,
-            614 strings with 6764 characters,
-and the built_in function-call counts, 4777 in all, are:
-= -- 440
-> -- 229
+            601 strings with 6363 characters,
+and the built_in function-call counts, 3895 in all, are:
+= -- 365
+> -- 180
 < -- 0
-+ -- 90
-- -- 76
-* -- 477
-:= -- 774
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 81
++ -- 71
+- -- 60
+* -- 388
+:= -- 627
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 64
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 154
-empty$ -- 381
-format.name$ -- 76
-if$ -- 953
+cite$ -- 13
+duplicate$ -- 121
+empty$ -- 313
+format.name$ -- 60
+if$ -- 779
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 28
-newline$ -- 52
-num.names$ -- 27
-pop$ -- 86
+int.to.str$ -- 11
+missing$ -- 22
+newline$ -- 43
+num.names$ -- 21
+pop$ -- 66
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 53
 quote$ -- 0
-skip$ -- 73
+skip$ -- 57
 stack$ -- 0
-substring$ -- 378
-swap$ -- 18
+substring$ -- 338
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 4
-while$ -- 50
-width$ -- 16
-write$ -- 130
-(There were 7 warnings)
+type$ -- 44
+warning$ -- 2
+while$ -- 42
+width$ -- 13
+write$ -- 106
+(There were 8 warnings)
