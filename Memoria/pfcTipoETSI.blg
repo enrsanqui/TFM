@@ -8,47 +8,51 @@ A level-1 auxiliary file: introduccion/introduccion.aux
 The style file: amsplain.bst
 Database file #1: biblio/biblio.bib
 Warning--I didn't find a database entry for "Kilbanov2006"
+Warning--I didn't find a database entry for "Higuera2006"
+Warning--I didn't find a database entry for "Rodriguez-Rordiguez2015b"
+Warning--missing pages in Gordillo2007a
 Warning--missing journal name in Postema2005
 Warning--missing journal name in Sadatomi2005
-You've used 10 entries,
+Warning--missing pages in Suryo2006a
+You've used 14 entries,
             2213 wiz_defined-function locations,
-            584 strings with 6104 characters,
-and the built_in function-call counts, 3590 in all, are:
-= -- 338
-> -- 167
+            614 strings with 6764 characters,
+and the built_in function-call counts, 4777 in all, are:
+= -- 440
+> -- 229
 < -- 0
-+ -- 66
-- -- 56
-* -- 359
-:= -- 577
-add.period$ -- 10
-call.type$ -- 10
-change.case$ -- 59
++ -- 90
+- -- 76
+* -- 477
+:= -- 774
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 81
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 110
-empty$ -- 286
-format.name$ -- 56
-if$ -- 716
+cite$ -- 18
+duplicate$ -- 154
+empty$ -- 381
+format.name$ -- 76
+if$ -- 953
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 20
-newline$ -- 40
-num.names$ -- 19
-pop$ -- 61
+int.to.str$ -- 14
+missing$ -- 28
+newline$ -- 52
+num.names$ -- 27
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 49
+purify$ -- 67
 quote$ -- 0
-skip$ -- 51
+skip$ -- 73
 stack$ -- 0
-substring$ -- 315
-swap$ -- 12
+substring$ -- 378
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
-warning$ -- 2
-while$ -- 39
-width$ -- 12
-write$ -- 97
-(There were 3 warnings)
+type$ -- 56
+warning$ -- 4
+while$ -- 50
+width$ -- 16
+write$ -- 130
+(There were 7 warnings)

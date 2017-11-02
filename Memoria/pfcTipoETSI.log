@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.11)  25 OCT 2017 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.28)  2 NOV 2017 01:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3040,6 +3040,9 @@ LaTeX Info: Redefining \% on input line 34.
 
 LaTeX Warning: Label `eq:continuidad' multiply defined.
 
+
+LaTeX Warning: Label `fig:tecnologias' multiply defined.
+
 ))
 \openout1 = `pfcTipoETSI.aux'.
 
@@ -3464,9 +3467,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
 
-LaTeX Warning: Citation `Eggers2008' on page 2 undefined on input line 16.
-
-
 LaTeX Warning: Citation `Higuera2006' on page 2 undefined on input line 18.
 
 
@@ -3474,55 +3474,100 @@ LaTeX Warning: Citation `Rodriguez-Rordiguez2015b' on page 2 undefined on input
  line 26.
 
 Package epstopdf Info: Source file: <introduccion/figuras/esquemaBurbuja.eps>
-(epstopdf)                    date: 2017-10-24 23:29:54
+(epstopdf)                    date: 2017-10-28 12:07:10
 (epstopdf)                    size: 667815 bytes
 (epstopdf)             Output file: <introduccion/figuras/esquemaBurbuja-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2017-10-24 23:40:59
+(epstopdf)                    date: 2017-10-28 12:07:10
 (epstopdf)                    size: 212284 bytes
 (epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/esque
 maBurbuja-eps-converted-to.pdf introduccion/figuras/esquemaBurbuja.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf, id=306, pagebox=crop
+<introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf, id=316, pagebox=crop
 box, 457.71pt x 174.6525pt>
 File: introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf>
 Package pdftex.def Info: introduccion/figuras/esquemaBurbuja-eps-converted-to.p
-df  used on input line 41. on input line 41.
+df  used on input line 40. on input line 40.
 Package pdftex.def Info: Requested size: 426.79134pt x 162.85953pt on input lin
-e 41.
-LaTeX Font Info:    Try loading font information for TS1+qtm on input line 49.
+e 40.
+LaTeX Font Info:    Try loading font information for TS1+qtm on input line 48.
 (/usr/share/texmf/tex/latex/tex-gyre/ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 )
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 
-      [2])
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
+l.54 
+      [2]
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.76 
+      [3 <./introduccion/figuras/esquemaBurbuja-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <introduccion/figuras/tecnologias.eps>
+(epstopdf)                    date: 2017-11-02 00:42:00
+(epstopdf)                    size: 101934 bytes
+(epstopdf)             Output file: <introduccion/figuras/tecnologias-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-11-02 01:30:10
+(epstopdf)                    size: 38345 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/tecno
+logias-eps-converted-to.pdf introduccion/figuras/tecnologias.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/tecnologias-eps-converted-to.pdf, id=369, pagebox=cropbox
+, 457.71pt x 444.66125pt>
+File: introduccion/figuras/tecnologias-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use introduccion/figuras/tecnologias-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/tecnologias-eps-converted-to.pdf 
+ used on input line 80. on input line 80.
+Package pdftex.def Info: Requested size: 457.7089pt x 444.66016pt on input line
+ 80.
+
+Overfull \hbox (30.91756pt too wide) in paragraph at lines 80--81
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 
+      [4 <./introduccion/figuras/tecnologias-eps-converted-to.pdf>])
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.163 \include{introduccion/introduccion}
-                                          [3 <./introduccion/figuras/esquemaBur
-buja-eps-converted-to.pdf>]pdfTeX warning (ext4): destination with the same ide
-ntifier (name{page.4}) has been already used, duplicate ignored
+                                          [5]pdfTeX warning (ext4): destination
+ with the same identifier (name{page.6}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
 l.177 \backmatter
-                  [4
+                  [6
 
 
 
@@ -3542,20 +3587,10 @@ LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
 LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 \cleardoublepage
-                       [5
+ [7
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 \cleardoublepage
-                       [6
+] [8
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 19
@@ -3573,9 +3608,10 @@ LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
 LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
- [7
+ [9
 
-] [8
+]
+[10
 
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 20
@@ -3591,19 +3627,18 @@ LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
+ [11
 
-[9
-
-] [10
+] [12
 
 ] (./pfcTipoETSI.bbl)
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
- [11
+ [13
 
-] [12
+] [14
 
 ]
 No file pfcTipoETSI.ind.
@@ -3613,7 +3648,7 @@ LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
 LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
-[13
+[15
 
 
 ]
@@ -3654,11 +3689,11 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
- 68106 strings out of 492990
- 1510052 string characters out of 6135004
- 1960022 words of memory out of 5000000
- 70139 multiletter control sequences out of 15000+600000
- 644165 words of font info for 172 fonts, out of 8000000 for 9000
+ 68149 strings out of 492990
+ 1510816 string characters out of 6135004
+ 1960725 words of memory out of 5000000
+ 70159 multiletter control sequences out of 15000+600000
+ 642046 words of font info for 177 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
  83i,17n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
@@ -3679,10 +3714,10 @@ r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (31 pages, 1075640 bytes).
+Output written on pfcTipoETSI.pdf (33 pages, 1123158 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 71 named destinations out of 1000 (max. 500000)
- 30510 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 480 compressed objects within 5 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 30027 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -7,6 +7,10 @@
 \providecommand{\href}[2]{#2}
 \begin{thebibliography}{10}
 
+\bibitem{Eggers2008}
+Jens Eggers and Emmanuel Villermaux, \emph{{Physics of liquid jets}}, Reports
+  on Progress in Physics \textbf{71} (2008), no.~3, 036601.
+
 \bibitem{Ferrara2007}
 Katherine Ferrara, Rachel Pollard, and Mark Borden, \emph{{Ultrasound
   Microbubble Contrast Agents: Fundamentals and Application to Gene and Drug
@@ -22,6 +26,11 @@ Felix Garcia-Ochoa and Emilio Gomez, \emph{{Prediction of gas-liquid mass
 \bysame, \emph{{Bioreactor scale-up and oxygen transfer rate in microbial
   processes: an overview.}}, Biotechnology advances \textbf{27} (2009), no.~2,
   153--76.
+
+\bibitem{Gordillo2007a}
+J.~M. Gordillo, a.~Sevilla, and C.~Mart??nez-Baz??n, \emph{{Bubbling in a
+  co-flow at high Reynolds numbers}}, Physics of Fluids \textbf{19} (2007),
+  no.~May.
 
 \bibitem{Kawahara2009}
 Akimaro Kawahara, Michio Sadatomi, Fuminori Matsuyama, and Hidetoshi Matsuura,
@@ -53,6 +62,16 @@ M~Sadatomi, \emph{{Performance of a new micro-bubble generator with a spherical
 S.~Sander, J.~Behnisch, and M.~Wagner, \emph{{Design of fine-bubble aeration
   systems for municipal WWTPs with high sea salt concentrations}}, Water
   Science and Technology \textbf{75} (2017), no.~7, 1555--1563.
+
+\bibitem{Sevilla2005a}
+a.~Sevilla, J.~M. Gordillo, and C.~Mart{\'{i}}nez-Baz{\'{a}}n, \emph{{Bubble
+  formation in a coflowing air–water stream}}, Journal of Fluid Mechanics
+  \textbf{530} (2005), 181--195.
+
+\bibitem{Suryo2006a}
+Ronald Suryo and Osman~a. Basaran, \emph{{Tip streaming from a liquid drop
+  forming from a tube in a co-flowing outer fluid}}, Physics of Fluids
+  \textbf{18} (2006), no.~2006.
 
 \bibitem{Terasaka2011}
 Koichi Terasaka, Ai~Hirabayashi, Takanori Nishino, Satoko Fujioka, and Daisuke
