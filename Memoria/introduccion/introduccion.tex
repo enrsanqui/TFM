@@ -126,3 +126,87 @@ Así pues, en la siguiente sección de este capítulo se discute con más detall
 
 \section{Influencia del gradiente de presión. Analogía aerodinámica}\LABSEC{gradPres}
 
+A lo largo de la \SEC{tecnologías}, se ha podido comprobar como el papel del líquido exterior en la generación de microburbujas puede ir desde simplemente imponer la velocidad de la entrefase previniendo la coalescencia hasta ejerecer un efecto análogo al de la gravedad a través del gradiente axial de presión. Las conclusiones extraídas en la \SSEC{ConclusionDevices} motivan indagar un poco más en el papel que dicho gradiente longitudinal de presión puede jugar en el proceso de formación de burbujas, por lo que se van a presentar de forma sucinta los resultados obtenidos~\cite{Evangelio2015b} donde se obtuvieron burbujas de tamaño micrométrico empleando la técnica conocida como \emph{Confined Selective Withdrawal}.
+
+\begin{figure}[hbtp!]
+\includegraphics[scale=1]{introduccion/figuras/esquemaCSW.eps}
+\caption{Esquema del dispositivo empleado en~\cite{Evangelio2015b} para la producción de microburbujas con la técnica de Confined Selective Withdrawal. Imagen adaptada de~\cite{Evangelio2015b}}
+\LABFIG{esquemaCSW}
+\end{figure}
+
+ En la \FIG{esquemaCSW} se describe esquemáticamente el funcionamiento de este dispositivo. El dispositivo consiste en cámara presurizada a $p_{0}$ con un líquido, de densidad $\rho$ y de viscosidad $\mu$, que se suministra desde el exterior y que descarga a $p_{a} < p_{0}$ a través de una salida a través de un capilar (en este caso de sección cuadrada) de dimensiones características $L = 1\,\mathrm{mm}$. El capilar se encuentra perfectamente alineado con una aguja donde se inyecta el gas con caudal $Q_{g}$ y que se encuentra a una distancia $H$ del capilar. Como puede observarse en la \FIG{fenomenologia}, para velocidades del líquido en el capilar inferiores a una $U < U^{*}$, el menisco emite burbujas de forma pulsante y de diferentes diámetros~\cite{Evangelio2015b}. Sin embargo, por encima de esta velocidad, se puede observar que el menisco de aire se mantiene estable para una regíon $x \leq x_{s}$, lo que propicia la aparición de un régimen de producción de burbujas monodispersas; la condición de equilibrio de la que resulta $x_{s}$ será discutida más adelante. Finalmente, en la \FIG{produccionEstable} se muestra como, para valores de $U > U^{*}$, aguas abajo de la zona estacionaria ($x \leq x_{s}$), se produce un cilindro de gas de diámetro $d_{g}$ y longitud $\ell$ que, finalmente, culmina con la producción de una nueva burbuja; una vez la burbuja es emitida y transportada a la velocidad del líquido, se inicia nuevamente el proceso de formación de otra burbuja a través del mecanismo descrito. 
+ 
+\begin{figure}[hbtp!]
+\includegraphics[scale=1]{introduccion/figuras/fenomenologia.eps}
+\caption{Diferentes regímenes de burbujeo en función de la velocidad $U$ a la que el líquido circula a través del capilar. En (a) se visualiza el caso en que $U < U^{*}$, por lo que no se tiene un régimen de burbujeo constante, mientras que en (b), $U > U^{*}$, se consigue alcanzar un régimen de producción de burbujas monodispersas. Imágenes adaptadas de~\cite{Evangelio2015b}.}
+\LABFIG{fenomenologia}
+\end{figure}
+
+Aunque en~\cite{Evangelio2015b} se analiza tanto el caso viscoso como el no viscoso, en esta sección nos centraremos únicamente en los casos $Re \gg 1$, ya que será el caso de interés para el dispositivo que aquí se describe. Antes de comenzar el análisis, conviene notar que la presión del gas, $p_{g}$, que además se considera constante a lo largo del mismo según la hipótesis ya comentada en la \SEC{fundamentos}, debe de encontrarse en equilibrio con la del líquido a la salida de la aguja, donde la velocidad del líquido es casi nula, por lo que puede suponerse que $p_{g} \simeq p_{0}$. Así, para obtener un menisco de aire estable en la región $x \leq x_{s}$, la diferencia de presiones $p_{0} - p\left(x\right)$ debe estar en equilibrio con la presión capilar. En efecto, considerando que el hilo gaseoso tenga un diámetro $d_{g}$, llamando $U_{0}$ a la velocidad en el centro del tubo capilar, y teniendo en cuenta el cumplimiento de la ecuación de continuidad
+
+\begin{equation}
+Q_{g} = \dfrac{\pi d_{g}^{2}}{4}U_{0} \Rightarrow d_{g} \sim \left(\dfrac{Q_{g}}{U_{0}}\right)^{1/2}
+\LABEQ{continuidadLigamento}, 
+\end{equation}
+
+se tiene que 
+
+\begin{equation}
+p_{0} - p\left(x_{s}\right) = \dfrac{2\sigma}{d_{g}} \simeq \dfrac{2\sigma}{\left(Q_{g}/U_{0}\right)^{1/2}}
+\LABEQ{equilibrioLigamento}
+\end{equation}
+
+lo que proporciona la condición de equilibrio para que exista un menisco de aire estacionario en $x \leq x_{s}$. Tanto en \eqref{eq:contiuidadLigamento} como en \eqref{equilibrioLigamento}, la expresión de $U_{0}$ vendrá determinada por el tipo de flujo que exista en el capilar, lo que para el caso en el que $Re \gg 1$ y teniendo en cuenta los resultados de las simulaciones
+\footnote{En~\cite{Evangelio2015b} se realiza una simulación del dominio considerando este como axilsimétrico y sin simular la fase gaseosa, lo que suele realizarse generalmente cuando se desea estudiar la estabilidad de chorros, descomponiendo el campo de presiones como suma de la solución básica más una perturbación (véase como ejemplo~\cite{Gordillo2014a}. En~\cite{Evangelio2015b}, sin embargo, se realiza la hipótesis, verificada \textit{a posteriori}, de que la presencia de las burbujas no perturba el campo de presiones del líquido.} realizadas en~\cite{Evangelio2015b} constituye un perfil uniforme de velocidad; efectivamente, este hecho queda representado por el valor del coeficiente de presión adimensional $\xi = \left(p_{0} - p\left(x\right)\right)/\left(1/2 \rho U^{2}\right) \simeq 1$ en $x = 0$. Así, dado que $p_{0} - p\left(x_{s}\right) \sim 1/2\rho U^{2}$ para $Re \gg 1$ y teniendo en cuenta que la formación de burbujas tnedrá lugar si $p_{0}-p\left(x\right) > \dfrac{2\sigma}{d_{g}}$, la formación de burbujas monodispersas será posible si 
+
+\begin{equation}
+\beta = \dfrac{\rho U^{2} L}{4\sigma}q^{1/2} \gtrsim 1 \qquad \mathrm{con} q = \dfrac{Q_{g}}{UL^{2}}
+\LABEQ{beta}
+\end{equation}
+
+donde $\beta$ en la \EQ{beta} constituye un parámetro similar al número de Webber, $We = \rho U^{2}L^{2}/\sigma$; la validez de \eqref{eq:beta} queda mostrada en~\cite{Evangelio2015b}.
+
+\begin{figure}[hbtp!]
+\includegraphics[scale=1]{introduccion/figuras/produccionEstable.eps}
+\caption{Secuencia de producción de burbujas a partir de un menisco de aire estable para la región $x \leq x_{s}$. Como se aprecia en la figura, aguas abajo de $x_{s}$, se emite un cilindro de gas de diámetro $\sim d_{g}$ que se extiende una longitud $\ell$. Imagen tomada de~\cite{Evangelio2015b}.}
+\LABFIG{produccionEstable}
+\end{figure}
+
+
+Una vez se han descrito las condiciones neesarias para la producción monodispersa de burbujas y se conocen las condiciones de equilibrio estacionario del menisco de aire, se está en condición de describir el resto del proceso de formación, así como las expresiones de los diámetros y frecuencias de producción de las burbujas obtenidas. Una vez que las burbujas se desprenden del ligamento de gas en $Lx \approx Lx_{s} + \ell$, la diferencia de presión $\Delta p = p_{0} - p\left(x\right) -2\sigma/d_{g} > 0$, induce velocidades radiales sobre el ligamento de gas que provoca el inicio del proceso de formación de una nueva burbuja. Dado que durante los instantes posteriores a la eyección de una nueva burbuja el diámetro del cilindro apenas varía, es posible escribir
+
+\begin{equation}
+\begin{split}
+&\Delta p = p_{0} - p\left(x\right) - 2\sigma/d_{g} = p_{0} - p\left(x_{s}\right) - 2\sigma/d_{g} + p\left(x_{s}\right) - p\left(x\right) \approx \\
+& \approx - \dfrac{\mathrm{d}p}{\mathrm{d} x}\left(x_{s}\right)\left(x-x_{s}\right) \approx \dfrac{\mathrm{d}\left(p_{0}-p\right)}{\mathrm{d}x}\left(x_{s}\right)\dfrac{\ell}{L}
+\end{split}
+\LABEQ{gradPress}
+\end{equation}
+
+donde se ha tenido en cuenta la \EQ{equilibrioLigamento} y se ha realizado un desarrollo en serie de Taylor de primer orden de la presión en torno al punto $x = x_{s}$. De este modo, y tal y como se detalla en~\cite{Evangelio2015b}, la \EQ{gradPress} muestra como el proceso de formación de burbujas está gobernado por el gradiente de presión local en el punto $x = x_{s}$, por lo que, como ya se ha comentado previamente, el gradiente de presión local posee un papel absolutamente análogo al que tiene la gravedad en la formación de una burbuja en una piscina en reposo. Por lo tanto, siguiendo el procedimiento que se siguió en la \SEC{fundamentos}, si se sustituye la \EQ{gradPress}, particularizada para el caso $Re \gg 1$, en la ecuación de Rayleigh-Plesset (\EQ{rayleighPlesset}), se tendrá que 
+
+\begin{equation}
+\rho R_{b}\ddot{R}_{b} \propto \dfrac{\mathrm{d}\left(p_{0} - p\right)}{\mathrm{d}x}\left(x_{s}\right)\dfrac{\ell}{L}\propto \dfrac{\ell}{2L}\rho U^{2} P_{s}
+\end{equation}
+
+siendo $P_{s} = \dot{\xi}\left(x_{s}\right)$. La ecuación anterior junto con la ecuación de continuidad~\eqref{eq:continuidad}, reescrita aquí por conveniencia
+
+\begin{equation}
+Q_{g} = \dfrac{\pi}{6}d_{b}^{3} f_{b}
+\end{equation}
+
+permiten obtener las frecuencias de producción,
+
+\begin{equation}
+\rho \dfrac{P_{s}}{2}\dfrac{U^{2}}{L}\ell \propto \rho R_{b} \ddot{R}_{b} \sim \rho d_{b}^{2}f_{b}^{2} \Rightarrow f_{b} \propto \dfrac{U\sqrt{P_{s}/2}}{\sqrt{L d_{b}}}\sqrt{\dfrac{\ell}{d_{b}}}
+\LABEQ{freqGradPres}
+\end{equation}
+
+y, finalmente, tomando $\ell \propto d_{b}$ empleando la analogía al caso de formación de burbujas en una piscina en reposo~\cite{Evangelio2015b}, la expresión final de la frecuencia y los diámetros de las burbujas. 
+
+\begin{equation}
+f_{b} \propto \dfrac{U\sqrt{P_{s}/2}}{\sqrt{L d_{b}}} \quad \mathrm{y} \quad \dfrac{d_{b}}{L} \propto \left(\dfrac{Q_{g}}{U\sqrt{P_{s}/2}L^{2}}\right)^{2/5}
+\end{equation}
+
+El proceso seguido para la obtención de las ecuaciones~\eqref{eq:freqGradPres} y \eqref{dbGradPres} es completamente análogo al descrito en la \SEC{fundamentos} con el gradiente de presión local ejerciendo el papel de la gravedad y con la diferencia que $\rho U^{2}/L \gg \rho g $, lo que atendiendo a las ecuaciones de arriba, se traduce en un aumento de la frecuencia y una disminución de los diámetros obtenidos. Este hecho hace pensar que, si el proceso de formación descrito está controlado por el gradiente de presión local en $x_{s}$, nada impide pensar en dispositivos generadores de burbujas donde los gradientes favorables de presión puedan obtenerse con geometrías tan diversas como diferentes a la descrita en~\cite{Evangelio2015b}.
+

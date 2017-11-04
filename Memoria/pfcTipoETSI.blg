@@ -13,47 +13,48 @@ Warning--I didn't find a database entry for "Rodriguez-Rordiguez2015b"
 Warning--I didn't find a database entry for "Sevilla2005a"
 Warning--I didn't find a database entry for "Gordillo2007a"
 Warning--I didn't find a database entry for "Suryo2006a"
+Warning--I didn't find a database entry for "Gordillo2013"
 Warning--missing journal name in Postema2005
 Warning--missing journal name in Sadatomi2005
-You've used 11 entries,
+You've used 13 entries,
             2213 wiz_defined-function locations,
-            601 strings with 6363 characters,
-and the built_in function-call counts, 3895 in all, are:
-= -- 365
-> -- 180
+            619 strings with 6747 characters,
+and the built_in function-call counts, 4553 in all, are:
+= -- 425
+> -- 211
 < -- 0
-+ -- 71
-- -- 60
-* -- 388
-:= -- 627
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 64
++ -- 83
+- -- 70
+* -- 451
+:= -- 734
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 121
-empty$ -- 313
-format.name$ -- 60
-if$ -- 779
+cite$ -- 15
+duplicate$ -- 143
+empty$ -- 368
+format.name$ -- 70
+if$ -- 913
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 22
-newline$ -- 43
-num.names$ -- 21
-pop$ -- 66
+int.to.str$ -- 13
+missing$ -- 26
+newline$ -- 49
+num.names$ -- 25
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 62
 quote$ -- 0
-skip$ -- 57
+skip$ -- 68
 stack$ -- 0
-substring$ -- 338
-swap$ -- 13
+substring$ -- 391
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 44
+type$ -- 52
 warning$ -- 2
-while$ -- 42
-width$ -- 13
-write$ -- 106
-(There were 8 warnings)
+while$ -- 49
+width$ -- 15
+write$ -- 123
+(There were 9 warnings)

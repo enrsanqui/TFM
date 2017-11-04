@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  2 NOV 2017 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  4 NOV 2017 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3558,10 +3558,6 @@ l.88
 
 LaTeX Warning: Citation `Suryo2006a' on page 5 undefined on input line 89.
 
-
-LaTeX Warning: Citation `Ganan-Calvo2001a' on page 5 undefined on input line 10
-0.
-
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
 LaTeX Info: Redefining \. on input line 119.
@@ -3571,17 +3567,122 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.119 
-       [5])
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
+       [5]
+
+LaTeX Warning: Reference `sec:tecnolog\IeC {\'\i }as' on page 6 undefined on in
+put line 129.
+
+Package epstopdf Info: Source file: <introduccion/figuras/esquemaCSW.eps>
+(epstopdf)                    date: 2017-11-04 13:31:22
+(epstopdf)                    size: 121015 bytes
+(epstopdf)             Output file: <introduccion/figuras/esquemaCSW-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-04 15:02:00
+(epstopdf)                    size: 43658 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/esque
+maCSW-eps-converted-to.pdf introduccion/figuras/esquemaCSW.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/esquemaCSW-eps-converted-to.pdf, id=424, pagebox=cropbox,
+ 305.14pt x 222.8325pt>
+File: introduccion/figuras/esquemaCSW-eps-converted-to.pdf Graphic file (type p
+df)
+<use introduccion/figuras/esquemaCSW-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/esquemaCSW-eps-converted-to.pdf  
+used on input line 132. on input line 132.
+Package pdftex.def Info: Requested size: 305.13924pt x 222.83195pt on input lin
+e 132.
+Package epstopdf Info: Source file: <introduccion/figuras/fenomenologia.eps>
+(epstopdf)                    date: 2017-11-04 14:05:40
+(epstopdf)                    size: 313202 bytes
+(epstopdf)             Output file: <introduccion/figuras/fenomenologia-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2017-11-04 15:02:00
+(epstopdf)                    size: 83107 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/fenom
+enologia-eps-converted-to.pdf introduccion/figuras/fenomenologia.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/fenomenologia-eps-converted-to.pdf, id=433, pagebox=cropb
+ox, 310.15875pt x 227.85126pt>
+File: introduccion/figuras/fenomenologia-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use introduccion/figuras/fenomenologia-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/fenomenologia-eps-converted-to.pd
+f  used on input line 140. on input line 140.
+Package pdftex.def Info: Requested size: 310.15799pt x 227.8507pt on input line
+ 140.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.163 \include{introduccion/introduccion}
-                                          [6]
+l.146 
+       [6]
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ [7 <./introduccion/figuras/esquemaCSW-eps-converted-to.pdf> <./introduccion/fi
+guras/fenomenologia-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `eq:contiuidadLigamento' on page 8 undefined on input 
+line 159.
+
+
+LaTeX Warning: Reference `equilibrioLigamento' on page 8 undefined on input lin
+e 159.
+
+
+LaTeX Warning: Citation `Gordillo2014a' on page 8 undefined on input line 160.
+
+Package epstopdf Info: Source file: <introduccion/figuras/produccionEstable.eps
+>
+(epstopdf)                    date: 2017-11-04 15:10:30
+(epstopdf)                    size: 194123 bytes
+(epstopdf)             Output file: <introduccion/figuras/produccionEstable-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-11-04 15:10:41
+(epstopdf)                    size: 59775 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/produ
+ccionEstable-eps-converted-to.pdf introduccion/figuras/produccionEstable.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/produccionEstable-eps-converted-to.pdf, id=488, pagebox=c
+ropbox, 305.14pt x 183.68625pt>
+File: introduccion/figuras/produccionEstable-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use introduccion/figuras/produccionEstable-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/produccionEstable-eps-converted-t
+o.pdf  used on input line 170. on input line 170.
+Package pdftex.def Info: Requested size: 305.13924pt x 183.68578pt on input lin
+e 170.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+ [8 <./introduccion/figuras/produccionEstable-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `dbGradPres' on page 9 undefined on input line 211.
+
+)
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+ [9] [10
+
+
+
+]
 Package tocbasic Info: character protrusion at lof deactivated on input line 18
 7.
  (./pfcTipoETSI.lof
@@ -3597,19 +3698,15 @@ LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
 LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
- [7
+ [11
 
 
-
-
-
-] [8
+] [12
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 19
 4.
-
-(./pfcTipoETSI.lot
+ (./pfcTipoETSI.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -3622,14 +3719,15 @@ LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
 LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
- [9
+ [13
 
-] [10
+] [14
 
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 20
 1.
- (./pfcTipoETSI.lol
+
+(./pfcTipoETSI.lol
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -3640,19 +3738,18 @@ LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
- [11
+ [15
 
-] [12
+] [16
 
 ] (./pfcTipoETSI.bbl)
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
+ [17
 
-[13
-
-] [14
+] [18
 
 ]
 No file pfcTipoETSI.ind.
@@ -3662,7 +3759,7 @@ LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
 LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
-[15
+[19
 
 
 ]
@@ -3703,13 +3800,13 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
- 68158 strings out of 492990
- 1510934 string characters out of 6135004
- 1960874 words of memory out of 5000000
- 70167 multiletter control sequences out of 15000+600000
- 642023 words of font info for 177 fonts, out of 8000000 for 9000
+ 68233 strings out of 492990
+ 1512584 string characters out of 6135004
+ 1962348 words of memory out of 5000000
+ 70203 multiletter control sequences out of 15000+600000
+ 645893 words of font info for 187 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
- 83i,17n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,18n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
 enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texliv
@@ -3728,10 +3825,10 @@ r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (33 pages, 1130328 bytes).
+Output written on pfcTipoETSI.pdf (37 pages, 1328121 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 491 compressed objects within 5 object streams
- 82 named destinations out of 1000 (max. 500000)
- 30035 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 755 PDF objects out of 1000 (max. 8388607)
+ 588 compressed objects within 6 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 30562 words of extra memory for PDF output out of 35830 (max. 10000000)
 
