@@ -208,7 +208,7 @@ y, finalmente, tomando $\ell \propto d_{b}$ empleando la analogía al caso de fo
 f_{b} \propto \dfrac{U\sqrt{P_{s}/2}}{\sqrt{L d_{b}}} \quad \mathrm{y} \quad \dfrac{d_{b}}{L} \propto \left(\dfrac{Q_{g}}{U\sqrt{P_{s}/2}L^{2}}\right)^{2/5}
 \end{equation}
 
-El proceso seguido para la obtención de las ecuaciones~\eqref{eq:freqGradPres} y \eqref{dbGradPres} es completamente análogo al descrito en la \SEC{fundamentos} con el gradiente de presión local ejerciendo el papel de la gravedad y con la diferencia que $\rho U^{2}/L \gg \rho g $, lo que atendiendo a las ecuaciones de arriba, se traduce en un aumento de la frecuencia y una disminución de los diámetros obtenidos. Este hecho hace pensar que, si el proceso de formación descrito está controlado por el gradiente de presión local en $x_{s}$, nada impide pensar en dispositivos generadores de burbujas donde los gradientes favorables de presión puedan obtenerse con geometrías tan diversas como diferentes a la descrita en~\cite{Evangelio2015b}.
+El proceso seguido para la obtención de las ecuaciones~\eqref{eq:freqGradPres} y \eqref{dbGradPres} es completamente análogo al descrito en la \SEC{fundamentos} con el gradiente de presión local ejerciendo el papel de la gravedad y con la diferencia que $\rho U^{2}/L \gg \rho g $, lo que atendiendo a las ecuaciones de arriba, se traduce en un aumento de la frecuencia y una disminución de los diámetros obtenidos. Este hecho invita a pensar que, si el proceso de formación descrito está controlado por el gradiente de presión local en $x_{s}$, nada impide imaginar dispositivos generadores de burbujas donde los gradientes favorables de presión puedan obtenerse con geometrías tan diversas como diferentes a la descrita en~\cite{Evangelio2015b}.
 
 
 \section{Analogía Aerodinámica}\LABSEC{aerodynamics}
@@ -219,9 +219,31 @@ Conviene antes de seguir, no obstante, esbozar algunas ideas básicas en aerodin
 
 \begin{figure}[hbtp!]
 \centering
-\includegraphics[width=\textwidth]{airfoil.png}
-\caption{Representación esquemática de un perfil aerodinámico que enfrenta una corriente a la velocidad $U_{\infty} $ que forma un ángulo de ataque $\alpha$ con la cuerda, $c$, del perfil. En la figura también se representan tanto el pico de succión (punto de mínima presión) como el punto de remanso (punto de máxima presión). }
-\LABFIG{airfoil}
+\subfloat[Campo de presión y geometría]{\includegraphics[width=.45\textwidth]{introduccion/figuras/airfoil.eps}\LABFIG{airfoil}}
+\subfloat[Líneas de corriente]{\includegraphics[width=.45\textwidth]{introduccion/figuras/streamlines.eps}\LABFIG{streamlines}}
+\caption{Representación esquemática de un perfil aerodinámico que enfrenta una corriente a la velocidad $U_{\infty} $ que forma un ángulo de ataque $\alpha$ con la cuerda, $c$, del perfil. En la \FIG{airfoil} se representan el campo de presión cambiado de signo ($-(p(\mathbf{x})-p_{\infty})$, con $\mathbf{x}\in \Sigma_{s}$, indicando  tanto el pico de succión (punto de mínima presión) como el punto de remanso (punto de máxima presión). En la \FIG{streamlines} se muestra una representación cualitativa de las líneas de corriente alrededor de un perfil aerodinámico. Adicionalmente se representan las zonas de fuertes gradientes favorables de presión, esto es la zona que, conteniendo el borde de ataque, se extiende desde el punto de remanso hasta el pico de succión, y la zona de gradiente desfavorable de presión, que se extiende aguas abajo del pico de succión y que se ha representado con una flecha indicando el sentido de la recirculación que podría producirse en la capa límite.}
 \end{figure}
 
-En la \FIG{airfoil} se representa de forma esquemática un perfil aerodinámico que enfrenta una corriente a la velocidad $U_{\infty}$ que forma con la \emph{cuerda del perfil}, $c$, un ángulo de ataque, $\alpha$. Por otro lado, 
+En la \FIG{airfoil} se representa de forma esquemática un perfil aerodinámico que enfrenta una corriente a la velocidad $U_{\infty}$ que forma con la \emph{cuerda del perfil}, $c$, un \emph{ángulo de ataque}, $\alpha$. Considerando que el flujo incidente es uniforme y carente de vorticidad (esto es $\omega = \nabla \times \mathbf{v} = 0$) y despreciando los efectos viscosos en todo el dominio excepto en la capa límite, la velocidad deriva de un potencial, $\mathbf{v} = \nabla \phi$, por lo que, imponiendo la ecuación de continuidad se llega al siguiente problema de contorno
+
+\begin{eqnarray}
+\nabla^{2} \phi & = & 0 \\
+\nabla \phi \cdot \mathbf{n} & = & 0, \quad \mathbf{x} \in \Sigma_{s}\\
+\left|\nabla \phi \right| & \rightarrow & 0, \quad \left|\mathbf{x}\right| \rightarrow \infty
+\LABEQ{problemaContorno}
+\end{eqnarray}
+
+
+Con las hipótesis realizadas, la resolución de este problema arroja resultados cualitativos y cuantitativos que ayudarán a comprender mejor el campo de velocidades y en especial de presiones del fluido alrededor del perfil. El problema de la laplaciana, que puede ser resuleto con un método de elementos de cotorno%INCLUIR SI DA TIEMPO UN APÉNDICE CON EL MÉTODO EMPLEADO!!!!!!
+, normalmente se descompone como $\phi = \phi_{\infty} + \phi'$, siendo $\phi_{\infty}$ el potencial correspondiente a una corriente infinita a ángulo de ataque $\alpha$ y $\phi^{'}$ el potencial de perturbación causado por la presencia del perfil. En la \FIG{resultadoPotencial} se muestran los resultados de una simulación realizada con el método de los elementos de contorno para problemas bidimensionales aplicada a un perfil simétrico NACA~0012 que se mueve en el seno de un fluido a un ángulo de ataque $\alpha = 4^{\circ}$. Como se puede observar en la \FIG{upotencial} y más detalladamente en la \FIG{upotencialZoom}, la velocidad longitudinal de perturbación posee un mínimo que se corresponde con el punto de remanso (punto de máxima presión) en la \FIG{cp}; nótese que, por conveniencia, se representa el \emph{coeficiente de presión}, $C_{p} = \left(p-p_{\infty}\right)/\left(1/2\rho U_{\infty}^{2}\right)$, cambiado de signo. Del mismo modo, el máximo de $u'$ se corresponde con el punto de mínima presión (pico de succión) como se muestra en la \FIG{cp} y más detalladamente en la \FIG{cpZoom}. 
+
+
+\begin{figure}
+\centering
+\subfloat[Velocidad de perturbación adimensional $u'/U_{\infty}$]{\includegraphics[width = .45\textwidth]{upotencial.eps}\LABFIG{upotencial}}
+\subfloat[Zoom de $u'/U_{\infty}$ en el borde de ataque]{\includegraphics[width = .45\textwidth]{uptonecialZoom.eps}\LABFIG{upotencialZoom}} \\
+\subfloat[Representación de $-C_{p} = -\left(p-p_{\infty}\right)/\left(1/2\rho U_{\infty}^{2}\right)$]{\includegraphics[width = .45\textwidth]{cp.eps}\LABFIG{cp}}
+\subfloat[Zoom de $-C_{p}$ en el borde de ataque]{\includegraphics[width=.45\textwidth]{cpZoom.eps}\LABFIG{cpZoom}}
+\caption{Resultados de una simulación por el método de elementos de contorno de un perfil simétrico NACA~0012 cuando sobre él incide una corriente con ángulo de ataque $\alpha = 4^{\circ}$. En la \FIG{upotencial} se representa el campo de velocidad longitudinal de perturbación y en la \FIG{cp} su correspondiente campo de presión. La \FIG{upotencialZoom} y la \FIG{cpZoom} se muestra ampliada la zona cercana al borde de ataque, donde existen como puede apreciarse fuertes gradientes favorables de presión.}
+\LABFIG{resultadoPotencial}
+\end{figure}

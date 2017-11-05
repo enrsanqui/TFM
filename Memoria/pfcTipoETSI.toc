@@ -11,11 +11,12 @@
 \contentsline {subsection}{\numberline {1.2.2}Dispositivos de Cross-Flow}{5}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Dispositivos de Flow-Focussing}{5}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Otros dispositivos y breve reflexi\IeC {\'o}n}{6}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Influencia del gradiente de presi\IeC {\'o}n. Analog\IeC {\'\i }a aerodin\IeC {\'a}mica}{6}{section.1.3}
+\contentsline {section}{\numberline {1.3}Influencia del gradiente de presi\IeC {\'o}n}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Analog\IeC {\'\i }a Aerodin\IeC {\'a}mica}{9}{section.1.4}
 \mbox {}\hspace *{0pt}\par 
-\contentsline {listasb}{{\'I}ndice de Figuras}{11}{section*.18}
-\contentsline {listasb}{{\'I}ndice de Tablas}{13}{section*.20}
-\contentsline {listasb}{{\'I}ndice de C{\'o}digos}{15}{section*.22}
-\contentsline {listasb}{Bibliograf\'{\i }a}{17}{section*.24}
-\contentsline {listasb}{\'{I}ndice alfab\'{e}tico}{19}{section*.26}
-\contentsline {listasb}{Glosario}{19}{section*.27}
+\contentsline {listasb}{{\'I}ndice de Figuras}{13}{section*.19}
+\contentsline {listasb}{{\'I}ndice de Tablas}{15}{section*.21}
+\contentsline {listasb}{{\'I}ndice de C{\'o}digos}{17}{section*.23}
+\contentsline {listasb}{Bibliograf\'{\i }a}{19}{section*.25}
+\contentsline {listasb}{\'{I}ndice alfab\'{e}tico}{21}{section*.27}
+\contentsline {listasb}{Glosario}{21}{section*.28}
