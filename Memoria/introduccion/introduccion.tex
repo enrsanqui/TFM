@@ -229,21 +229,45 @@ En la \FIG{airfoil} se representa de forma esquemática un perfil aerodinámico 
 \begin{eqnarray}
 \nabla^{2} \phi & = & 0 \\
 \nabla \phi \cdot \mathbf{n} & = & 0, \quad \mathbf{x} \in \Sigma_{s}\\
-\left|\nabla \phi \right| & \rightarrow & 0, \quad \left|\mathbf{x}\right| \rightarrow \infty
+\left|\nabla \phi \right| & \rightarrow & U_{\infty}, \quad \left|\mathbf{x}\right| \rightarrow \infty
 \LABEQ{problemaContorno}
 \end{eqnarray}
 
 
 Con las hipótesis realizadas, la resolución de este problema arroja resultados cualitativos y cuantitativos que ayudarán a comprender mejor el campo de velocidades y en especial de presiones del fluido alrededor del perfil. El problema de la laplaciana, que puede ser resuleto con un método de elementos de cotorno%INCLUIR SI DA TIEMPO UN APÉNDICE CON EL MÉTODO EMPLEADO!!!!!!
-, normalmente se descompone como $\phi = \phi_{\infty} + \phi'$, siendo $\phi_{\infty}$ el potencial correspondiente a una corriente infinita a ángulo de ataque $\alpha$ y $\phi^{'}$ el potencial de perturbación causado por la presencia del perfil. En la \FIG{resultadoPotencial} se muestran los resultados de una simulación realizada con el método de los elementos de contorno para problemas bidimensionales aplicada a un perfil simétrico NACA~0012 que se mueve en el seno de un fluido a un ángulo de ataque $\alpha = 4^{\circ}$. Como se puede observar en la \FIG{upotencial} y más detalladamente en la \FIG{upotencialZoom}, la velocidad longitudinal de perturbación posee un mínimo que se corresponde con el punto de remanso (punto de máxima presión) en la \FIG{cp}; nótese que, por conveniencia, se representa el \emph{coeficiente de presión}, $C_{p} = \left(p-p_{\infty}\right)/\left(1/2\rho U_{\infty}^{2}\right)$, cambiado de signo. Del mismo modo, el máximo de $u'$ se corresponde con el punto de mínima presión (pico de succión) como se muestra en la \FIG{cp} y más detalladamente en la \FIG{cpZoom}. 
+, normalmente se descompone como $\phi = \phi_{\infty} + \phi'$, siendo $\phi_{\infty}$ el potencial correspondiente a una corriente uniforme de valor $U_{\infty}$ con ángulo de ataque $\alpha$ y $\phi^{'}$ el potencial de perturbación causado por la presencia del perfil. En la \FIG{resultadoPotencial} se muestran los resultados de una simulación realizada con el método de los elementos de contorno para problemas bidimensionales aplicada a un perfil simétrico NACA~0012 que se mueve en el seno de un fluido a un ángulo de ataque $\alpha = 4^{\circ}$. Como se puede observar en la \FIG{upotencial} y más detalladamente en la \FIG{upotencialZoom}, la velocidad longitudinal de perturbación posee un mínimo que se corresponde con el punto de remanso (punto de máxima presión) en la \FIG{cp}; nótese que, por conveniencia, se ha definido el \emph{Coeficiente de presión} como $C_{p} = \left(p_{\infty} - p\right)/\left(1/2\rho U_{\infty}^{2}\right)$, es decir, de forma análoga a la definición de $\xi$ en la \SEC{gradPres}. Del mismo modo, el máximo de $u'$ se corresponde con el punto de mínima presión (pico de succión) como se muestra en la \FIG{cp} y más detalladamente en la \FIG{cpZoom}. Los resultados de la \FIG{resultadosPotencial} muestran como se pueden clasificar hasta 3 zonas diferentes atendiendo al gradiente de presión:
+
+\begin{itemize}
+\item Zona del intradós aguas abajo del punto de remanso: en esta zona la presión disminuye aguas abajo, por lo que el gradiente de presión es favorable. No obstante, esta disminución es muy lenta, por lo que el valor del gradiente de presión no es muy elevado.
+\item Zona del extradós aguas abajo del pico de succión: en esta zona la presión aumenta desde el punto de mínima presión y el borde de salida del perfil, por lo que el gradiente de presión es adverso. Esto hace que cerca de la pared del perfil puedan existir zonas de recirculación o flujo inverso, esto es, zonas de la capa límite donde la velocidad circula en sentido opuesto a la corriente no afectada por los efectos viscosos. 
+\item Zona que contiene al borde de ataque entre el punto de remanso y el pico de succión: en esta zona el fluido evoluciona entre el punto de máxima y el de mínima presión, por lo que la aceleración es máxima y el gradiente favorable de presión también. 
+\end{itemize}
+
 
 
 \begin{figure}
 \centering
-\subfloat[Velocidad de perturbación adimensional $u'/U_{\infty}$]{\includegraphics[width = .45\textwidth]{upotencial.eps}\LABFIG{upotencial}}
-\subfloat[Zoom de $u'/U_{\infty}$ en el borde de ataque]{\includegraphics[width = .45\textwidth]{uptonecialZoom.eps}\LABFIG{upotencialZoom}} \\
-\subfloat[Representación de $-C_{p} = -\left(p-p_{\infty}\right)/\left(1/2\rho U_{\infty}^{2}\right)$]{\includegraphics[width = .45\textwidth]{cp.eps}\LABFIG{cp}}
-\subfloat[Zoom de $-C_{p}$ en el borde de ataque]{\includegraphics[width=.45\textwidth]{cpZoom.eps}\LABFIG{cpZoom}}
-\caption{Resultados de una simulación por el método de elementos de contorno de un perfil simétrico NACA~0012 cuando sobre él incide una corriente con ángulo de ataque $\alpha = 4^{\circ}$. En la \FIG{upotencial} se representa el campo de velocidad longitudinal de perturbación y en la \FIG{cp} su correspondiente campo de presión. La \FIG{upotencialZoom} y la \FIG{cpZoom} se muestra ampliada la zona cercana al borde de ataque, donde existen como puede apreciarse fuertes gradientes favorables de presión.}
+\subfloat[Velocidad de perturbación adimensional $u'/U_{\infty}$]{\includegraphics[width = .45\textwidth]{introduccion/figuras/upotencial.eps}\LABFIG{upotencial}}
+\subfloat[Zoom de $u'/U_{\infty}$ en el borde de ataque]{\includegraphics[width = .45\textwidth]{introduccion/figuras/upotencialZoom.eps}\LABFIG{upotencialZoom}} \\
+\subfloat[Representación de $C_{p} = \left(p_{\infty} - p\right)/\left(1/2\rho U_{\infty}^{2}\right)$]{\includegraphics[width = .45\textwidth]{introduccion/figuras/cp.eps}\LABFIG{cp}}
+\subfloat[Zoom de $C_{p}$ en el borde de ataque]{\includegraphics[width=.45\textwidth]{introduccion/figuras/cpZoom.eps}\LABFIG{cpZoom}}
+\caption{Resultados de una simulación por el método de elementos de contorno de un perfil simétrico NACA~0012 cuando sobre él incide una corriente con ángulo de ataque $\alpha = 4^{\circ}$. En la \FIG{upotencial} se representa el campo de velocidad longitudinal de perturbación y en la \FIG{cp} su correspondiente campo de presión. La \FIG{upotencialZoom} y la \FIG{cpZoom} se muestra ampliada la zona cercana al borde de ataque, donde existen, como puede apreciarse, fuertes gradientes favorables de presión.}
 \LABFIG{resultadoPotencial}
 \end{figure}
+
+
+De estas tres zonas la que más despierta nuestro interés es la tercera, pues es donde se alcanzan mayores gradientes favorables de presión. Ahora bien, la pregunta que en este momento es pertinente es si estos gradientes de presión son comparables a los econtrados, por ejemplo, en~\cite{Evangelio2015b}. Para encontrar respuesta a esta pregunta se muestra en la \FIG{cpComp} el valor del coeficiente de presión en la zona de interés del ala (\FIG{cpBDA}) y el valor del coeficiente de presión en~\cite{Evangelio2015b} para el caso $Re \gg 1$ (\FIG{cpAlvaro}). Dado que normalmente el coeficiente de presión para el caso del ala se adimensionaliza empleando la cuerda del perfil y en~\cite{Evangelio2015b} se emplea el ancho de la sección capilar $L$, se deben reescalar los valores de este último para poder compararlos adecuadamente. De este modo, tomando los valores de la \FIG{cpComp}
+
+\begin{equation}
+\dfrac{\mathrm{d}c_{p}}{\mathrm{d}\bar{s}} \sim \dfrac{\mathrm{d}\xi}{\mathrm{d}x}\dfrac{c}{L} \Rightarrow 430 \sim 640
+\end{equation}
+
++\begin{figure}
+\centering
+\subfloat[Valor de $c_{p}$ cerca del borde de ataque.]{\includegraphics[width=.45\textwidth]{introduccion/figuras/cpBDA.eps}\LABFIG{cpBDA}}
+\subfloat[Valor de $\xi$ calculado numéricamente en~\cite{Evangelio2015b}]{\includegraphics[width = .45\textwidth]{introduccion/figuras/cpAlvaro.eps}\LABFIG{cpAlvaro}}
+\caption{Valor del coeficiente de presión en el borde de ataque de un perfil aerodinámico NACA~0012 (\FIG{cpBDA}) para varios ángulos de ataque $\alpha$  y en el experimento realizado en~\cite{Evangelio2015b} (\FIG{cpAlvaro}). En la \FIG{cpBDA} $c_{p}$ está representado en función del arco adimensional, $\bar{s} = s/c$, con origen en el borde de ataque del perfil y tomando una cuerda $c = 0.3\,\mathrm{m}$ para este caso. En la \FIG{cpAlvaro} se representa el gradiente de presión en el punto $x_{s}$ descrito en la \EQ{equilibrioLigamento}, mientras que en la \FIG{cpBDA}se representa el gradiente de presión en un punto representativo del borde de ataque, $\bar{s}=0$. Nótese que el valor del gradiente de presión adimensional depende de la coordenada adimensional elegida.} 
+\LABFIG{cpComp}
+\end{figure}
+
+

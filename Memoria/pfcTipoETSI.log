@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  5 NOV 2017 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  5 NOV 2017 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3703,18 +3703,12 @@ Package epstopdf Info: Source file: <introduccion/figuras/streamlines.eps>
 (epstopdf)                    size: 26706 bytes
 (epstopdf)             Output file: <introduccion/figuras/streamlines-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-11-05 13:06:36
-(epstopdf)                    size: 11358 bytes
+(epstopdf)                    date: 2017-11-05 13:07:48
+(epstopdf)                    size: 11327 bytes
 (epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/strea
 mlines-eps-converted-to.pdf introduccion/figuras/streamlines.eps>
 (epstopdf)             \includegraphics on input line 223.
-runsystem(repstopdf --outfile=introduccion/figuras/streamlines-eps-converted-to
-.pdf introduccion/figuras/streamlines.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <introduccion/figuras/streamlines-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2017-11-05 13:07:48
-(epstopdf)                    size: 11327 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <introduccion/figuras/streamlines-eps-converted-to.pdf, id=545, pagebox=cropbox
 , 553.06625pt x 189.70876pt>
 File: introduccion/figuras/streamlines-eps-converted-to.pdf Graphic file (type 
@@ -3734,15 +3728,158 @@ LaTeX Info: Redefining \% on input line 234.
  [10 <./introduccion/figuras/airfoil-eps-converted-to.pdf> <./introduccion/figu
 ras/streamlines-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:velocidadPerturbacion' on page 11 undefined on in
-put line 238.
+LaTeX Warning: Reference `fig:resultadosPotencial' on page 11 undefined on inpu
+t line 238.
+
+Package epstopdf Info: Source file: <introduccion/figuras/upotencial.eps>
+(epstopdf)                    date: 2017-11-05 14:07:20
+(epstopdf)                    size: 36201 bytes
+(epstopdf)             Output file: <introduccion/figuras/upotencial-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-11-05 14:10:37
+(epstopdf)                    size: 15275 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/upote
+ncial-eps-converted-to.pdf introduccion/figuras/upotencial.eps>
+(epstopdf)             \includegraphics on input line 250.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/upotencial-eps-converted-to.pdf, id=596, pagebox=cropbox,
+ 881.2925pt x 661.47125pt>
+File: introduccion/figuras/upotencial-eps-converted-to.pdf Graphic file (type p
+df)
+<use introduccion/figuras/upotencial-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/upotencial-eps-converted-to.pdf  
+used on input line 250. on input line 250.
+Package pdftex.def Info: Requested size: 192.0548pt x 144.15144pt on input line
+ 250.
+Package epstopdf Info: Source file: <introduccion/figuras/upotencialZoom.eps>
+(epstopdf)                    date: 2017-11-05 14:07:20
+(epstopdf)                    size: 30393 bytes
+(epstopdf)             Output file: <introduccion/figuras/upotencialZoom-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-11-05 14:10:37
+(epstopdf)                    size: 13165 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/upote
+ncialZoom-eps-converted-to.pdf introduccion/figuras/upotencialZoom.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/upotencialZoom-eps-converted-to.pdf, id=597, pagebox=crop
+box, 879.285pt x 661.47125pt>
+File: introduccion/figuras/upotencialZoom-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use introduccion/figuras/upotencialZoom-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/upotencialZoom-eps-converted-to.p
+df  used on input line 251. on input line 251.
+Package pdftex.def Info: Requested size: 192.0548pt x 144.47443pt on input line
+ 251.
+Package epstopdf Info: Source file: <introduccion/figuras/cp.eps>
+(epstopdf)                    date: 2017-11-05 14:07:20
+(epstopdf)                    size: 51042 bytes
+(epstopdf)             Output file: <introduccion/figuras/cp-eps-converted-to.p
+df>
+(epstopdf)                    date: 2017-11-05 14:10:57
+(epstopdf)                    size: 22966 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cp-ep
+s-converted-to.pdf introduccion/figuras/cp.eps>
+(epstopdf)             \includegraphics on input line 252.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/cp-eps-converted-to.pdf, id=598, pagebox=cropbox, 889.322
+5pt x 661.47125pt>
+File: introduccion/figuras/cp-eps-converted-to.pdf Graphic file (type pdf)
+<use introduccion/figuras/cp-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/cp-eps-converted-to.pdf  used on 
+input line 252. on input line 252.
+Package pdftex.def Info: Requested size: 192.0548pt x 142.84941pt on input line
+ 252.
+Package epstopdf Info: Source file: <introduccion/figuras/cpZoom.eps>
+(epstopdf)                    date: 2017-11-05 14:07:20
+(epstopdf)                    size: 45389 bytes
+(epstopdf)             Output file: <introduccion/figuras/cpZoom-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-11-05 14:10:38
+(epstopdf)                    size: 20811 bytes
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cpZoo
+m-eps-converted-to.pdf introduccion/figuras/cpZoom.eps>
+(epstopdf)             \includegraphics on input line 253.
+Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/cpZoom-eps-converted-to.pdf, id=599, pagebox=cropbox, 887
+.315pt x 661.47125pt>
+File: introduccion/figuras/cpZoom-eps-converted-to.pdf Graphic file (type pdf)
+<use introduccion/figuras/cpZoom-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/cpZoom-eps-converted-to.pdf  used
+ on input line 253. on input line 253.
+Package pdftex.def Info: Requested size: 192.0548pt x 143.16231pt on input line
+ 253.
+
+LaTeX Warning: File `introduccion/figuras/cpBDA.eps' not found on input line 26
+7.
+
+Package epstopdf Info: Source file: <introduccion/figuras/cpBDA.eps>
+(epstopdf)             Output file: <introduccion/figuras/cpBDA-eps-converted-t
+o.pdf>
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cpBDA
+-eps-converted-to.pdf introduccion/figuras/cpBDA.eps>
+(epstopdf)             \includegraphics on input line 267.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `introduccion/figuras/cpBDA-eps-converted-to.p
+df' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 ...duccion/figuras/cpBDA.eps}\LABFIG{cpBDA}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+LaTeX Warning: File `introduccion/figuras/cpAlvaro.eps' not found on input line
+ 268.
+
+Package epstopdf Info: Source file: <introduccion/figuras/cpAlvaro.eps>
+(epstopdf)             Output file: <introduccion/figuras/cpAlvaro-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cpAlv
+aro-eps-converted-to.pdf introduccion/figuras/cpAlvaro.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `introduccion/figuras/cpAlvaro-eps-converted-t
+o.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...n/figuras/cpAlvaro.eps}\LABFIG{cpAlvaro}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 )
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
- [11] [12
+ [11]
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+ [12 <./introduccion/figuras/upotencial-eps-converted-to.pdf> <./introduccion/f
+iguras/upotencialZoom-eps-converted-to.pdf> <./introduccion/figuras/cp-eps-conv
+erted-to.pdf> <./introduccion/figuras/cpZoom-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+
+[13] [14
 
 
 
@@ -3762,10 +3899,10 @@ LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
 LaTeX Info: Redefining \. on input line 190.
 LaTeX Info: Redefining \% on input line 190.
- [13
+ [15
 
 
-] [14
+] [16
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 19
@@ -3783,9 +3920,9 @@ LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
 LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
- [15
+ [17
 
-] [16
+] [18
 
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 20
@@ -3802,18 +3939,18 @@ LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
 LaTeX Info: Redefining \. on input line 204.
 LaTeX Info: Redefining \% on input line 204.
- [17
+ [19
 
-] [18
+] [20
 
 ] (./pfcTipoETSI.bbl)
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
- [19
+ [21
 
-] [20
+] [22
 
 ]
 No file pfcTipoETSI.ind.
@@ -3823,7 +3960,7 @@ LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
 LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
-[21
+[23
 
 
 ]
@@ -3860,35 +3997,37 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
- 68270 strings out of 492990
- 1513474 string characters out of 6135004
- 1962509 words of memory out of 5000000
- 70223 multiletter control sequences out of 15000+600000
- 647958 words of font info for 193 fonts, out of 8000000 for 9000
+ 68340 strings out of 492990
+ 1515146 string characters out of 6135004
+ 1964417 words of memory out of 5000000
+ 70260 multiletter control sequences out of 15000+600000
+ 655042 words of font info for 208 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
  83i,18n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
-enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre
-/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/te
-xmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
-ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (39 pages, 1360409 bytes).
+enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q
+-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share
+/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/shar
+e/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/publ
+ic/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rs
+fs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pfcTipoETSI.pdf (41 pages, 1456982 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 644 compressed objects within 7 object streams
- 107 named destinations out of 1000 (max. 500000)
- 30580 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 734 compressed objects within 8 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 31112 words of extra memory for PDF output out of 35830 (max. 10000000)
 
