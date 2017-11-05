@@ -258,9 +258,13 @@ Con las hipótesis realizadas, la resolución de este problema arroja resultados
 
 De estas tres zonas la que más despierta nuestro interés es la tercera, pues es donde se alcanzan mayores gradientes favorables de presión. Ahora bien, la pregunta que en este momento es pertinente es si estos gradientes de presión son comparables a los econtrados, por ejemplo, en~\cite{Evangelio2015b}. Para encontrar respuesta a esta pregunta se muestra en la \FIG{cpComp} el valor del coeficiente de presión en la zona de interés del ala (\FIG{cpBDA}) y el valor del coeficiente de presión en~\cite{Evangelio2015b} para el caso $Re \gg 1$ (\FIG{cpAlvaro}). Dado que normalmente el coeficiente de presión para el caso del ala se adimensionaliza empleando la cuerda del perfil y en~\cite{Evangelio2015b} se emplea el ancho de la sección capilar $L$, se deben reescalar los valores de este último para poder compararlos adecuadamente. De este modo, tomando los valores de la \FIG{cpComp}
 
-\begin{equation}
-\dfrac{\mathrm{d}c_{p}}{\mathrm{d}\bar{s}} \sim \dfrac{\mathrm{d}\xi}{\mathrm{d}x}\dfrac{c}{L} \Rightarrow 430 \sim 640
-\end{equation}
+\begin{align}
+\dfrac{\mathrm{d}\xi}{\mathrm{d}x}\dfrac{c}{L} & \sim \mathcal{O}\left(600\right) \\
+\dfrac{\mathrm{d}\,c_{p}}{\mathrm{d}\bar{s}} & \sim \mathcal{O}\left(430\right) 
+\LABEQ{gradPresComp}
+\end{align}
+
+donde se ha calculado la pendiende de la curva de $c_{p}$ correspondiente a $\alpha = 12^{\circ}$. A tenor de los valores mostrados en la \EQ{gradPresComp}, queda patente como el gradiente de presión local alcanzado en el entorno del borde de ataque es comparable al que se tiene en~\cite{Evangelio2015b}, por lo que tiene sentido plantearse un dispositivo generador de burbujas monodispersas en forma de ala donde el gas sea inyectado en la zona de fuertes gradientes favorables de presión. 
 
 +\begin{figure}
 \centering
@@ -271,3 +275,4 @@ De estas tres zonas la que más despierta nuestro interés es la tercera, pues e
 \end{figure}
 
 
+En este capítulo se ha mostrado una breve revisión del estado del arte en lo que a la producción de microburbujas para la industria y la medicina se refiere. Se han mostrado, basándose especialmente en~\cite{Rodriguez-Rodriguez2015b}, los fundamentos que gobiernan el problema de formación de burbujas, donde se ha mostrado como el gradiente de presión local juega un papel primordial en situaciones que van desde la generación de burbujas en una piscina en reposo hasta la producción en dispositivos de coflow y flow-focussing. Así, en~\cite{Evangelio2015b}, se muestra de forma tajante como el gradiente de presión local controla el proceso de formación de burbujas en un dispositivo de Confined Selective Withdrawal, hecho 	que permite pensar en geometrías completamente diferentes a las de los dispositivos microfluídicos actuales pero con la capacidad de generar gradientes favorables de presión comparables a los de aquellos. Estos resultados, finalmente, permiten proponer el empleo de un perfil aerodinámico como dispositivo generador masivo de burbujas monodispersas, considerando pues los fuertes gradientes favorables de presión que se generan en el entorno del borde de ataque. 
