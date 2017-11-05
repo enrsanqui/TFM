@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  5 NOV 2017 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.14)  5 NOV 2017 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3809,57 +3809,49 @@ Package pdftex.def Info: introduccion/figuras/cpZoom-eps-converted-to.pdf  used
  on input line 253. on input line 253.
 Package pdftex.def Info: Requested size: 192.0548pt x 143.16231pt on input line
  253.
-
-LaTeX Warning: File `introduccion/figuras/cpBDA.eps' not found on input line 26
-7.
-
 Package epstopdf Info: Source file: <introduccion/figuras/cpBDA.eps>
+(epstopdf)                    date: 2017-11-05 22:32:12
+(epstopdf)                    size: 51436 bytes
 (epstopdf)             Output file: <introduccion/figuras/cpBDA-eps-converted-t
 o.pdf>
+(epstopdf)                    date: 2017-11-05 22:32:47
+(epstopdf)                    size: 25747 bytes
 (epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cpBDA
 -eps-converted-to.pdf introduccion/figuras/cpBDA.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `introduccion/figuras/cpBDA-eps-converted-to.p
-df' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 ...duccion/figuras/cpBDA.eps}\LABFIG{cpBDA}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-LaTeX Warning: File `introduccion/figuras/cpAlvaro.eps' not found on input line
- 268.
-
+<introduccion/figuras/cpBDA-eps-converted-to.pdf, id=617, pagebox=cropbox, 978.
+65625pt x 677.53125pt>
+File: introduccion/figuras/cpBDA-eps-converted-to.pdf Graphic file (type pdf)
+<use introduccion/figuras/cpBDA-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/cpBDA-eps-converted-to.pdf  used 
+on input line 271. on input line 271.
+Package pdftex.def Info: Requested size: 213.39566pt x 147.73402pt on input lin
+e 271.
 Package epstopdf Info: Source file: <introduccion/figuras/cpAlvaro.eps>
+(epstopdf)                    date: 2017-11-05 22:35:34
+(epstopdf)                    size: 82240 bytes
 (epstopdf)             Output file: <introduccion/figuras/cpAlvaro-eps-converte
 d-to.pdf>
+(epstopdf)                    date: 2017-11-05 22:35:42
+(epstopdf)                    size: 25454 bytes
 (epstopdf)             Command: <repstopdf --outfile=introduccion/figuras/cpAlv
 aro-eps-converted-to.pdf introduccion/figuras/cpAlvaro.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
+<introduccion/figuras/cpAlvaro-eps-converted-to.pdf, id=618, pagebox=cropbox, 2
+07.77625pt x 138.5175pt>
+File: introduccion/figuras/cpAlvaro-eps-converted-to.pdf Graphic file (type pdf
+)
+<use introduccion/figuras/cpAlvaro-eps-converted-to.pdf>
+Package pdftex.def Info: introduccion/figuras/cpAlvaro-eps-converted-to.pdf  us
+ed on input line 272. on input line 272.
+Package pdftex.def Info: Requested size: 213.39566pt x 142.26878pt on input lin
+e 272.
 
-! Package pdftex.def Error: File `introduccion/figuras/cpAlvaro-eps-converted-t
-o.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268 ...n/figuras/cpAlvaro.eps}\LABFIG{cpAlvaro}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (9.6444pt too wide) in paragraph at lines 271--273
+ [][][][]\T1/qtm/m/n/10 (-20) ++ 
+ []
 
 )
 LaTeX Info: Redefining \. on input line 163.
@@ -3879,7 +3871,8 @@ LaTeX Info: Redefining \% on input line 163.
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
 
-[13] [14
+[13 <./introduccion/figuras/cpBDA-eps-converted-to.pdf> <./introduccion/figuras
+/cpAlvaro-eps-converted-to.pdf>] [14
 
 
 
@@ -3907,7 +3900,8 @@ LaTeX Info: Redefining \% on input line 190.
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 19
 4.
- (./pfcTipoETSI.lot
+
+(./pfcTipoETSI.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -3927,8 +3921,7 @@ LaTeX Info: Redefining \% on input line 197.
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 20
 1.
-
-(./pfcTipoETSI.lol
+ (./pfcTipoETSI.lol
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -3948,7 +3941,7 @@ LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
 LaTeX Info: Redefining \. on input line 217.
 LaTeX Info: Redefining \% on input line 217.
- [21
+[21
 
 ] [22
 
@@ -3997,37 +3990,35 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
- 68340 strings out of 492990
- 1515146 string characters out of 6135004
- 1964417 words of memory out of 5000000
- 70260 multiletter control sequences out of 15000+600000
- 655042 words of font info for 208 fonts, out of 8000000 for 9000
+ 68344 strings out of 492990
+ 1515574 string characters out of 6135004
+ 1964473 words of memory out of 5000000
+ 70265 multiletter control sequences out of 15000+600000
+ 654729 words of font info for 207 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
  83i,18n,134p,10428b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q
--ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share
-/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/shar
-e/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/publ
-ic/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rs
-fs10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (41 pages, 1456982 bytes).
+enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre
+/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/te
+xmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pfcTipoETSI.pdf (41 pages, 1477712 bytes).
 PDF statistics:
- 946 PDF objects out of 1000 (max. 8388607)
- 734 compressed objects within 8 object streams
- 118 named destinations out of 1000 (max. 500000)
- 31112 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 963 PDF objects out of 1000 (max. 8388607)
+ 745 compressed objects within 8 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 30610 words of extra memory for PDF output out of 35830 (max. 10000000)
 
