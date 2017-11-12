@@ -13,10 +13,21 @@
 \contentsline {subsection}{\numberline {1.2.4}Otros dispositivos y breve reflexi\IeC {\'o}n}{6}{subsection.1.2.4}
 \contentsline {section}{\numberline {1.3}Influencia del gradiente de presi\IeC {\'o}n}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Analog\IeC {\'\i }a Aerodin\IeC {\'a}mica}{9}{section.1.4}
+\contentsline {chapter}{\numberline {2}Ala acu\IeC {\'a}tica bidimensional}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dise\IeC {\~n}o y fabricaci\IeC {\'o}n}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Equipos disponibles y limitaciones}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Dise\IeC {\~n}o del ala}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Dise\IeC {\~n}o del montaje experimental}{19}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Experimentos}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Campa\IeC {\~n}a experimental}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Datos obtenidos y m\IeC {\'e}todos de postproceso}{23}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Resultados y discusi\IeC {\'o}n}{24}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Efecto de la posici\IeC {\'o}n del orificio de inyecci\IeC {\'o}n}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Resultado para un orificio situado en $\mathbf {\mathaccentV {bar}016{s} = 0}$}{25}{subsection.2.3.2}
 \mbox {}\hspace *{0pt}\par 
-\contentsline {listasb}{{\'I}ndice de Figuras}{15}{section*.21}
-\contentsline {listasb}{{\'I}ndice de Tablas}{17}{section*.23}
-\contentsline {listasb}{{\'I}ndice de C{\'o}digos}{19}{section*.25}
-\contentsline {listasb}{Bibliograf\'{\i }a}{21}{section*.27}
-\contentsline {listasb}{\'{I}ndice alfab\'{e}tico}{23}{section*.29}
-\contentsline {listasb}{Glosario}{23}{section*.30}
+\contentsline {listasb}{{\'I}ndice de Figuras}{31}{section*.37}
+\contentsline {listasb}{{\'I}ndice de Tablas}{33}{section*.39}
+\contentsline {listasb}{{\'I}ndice de C{\'o}digos}{35}{section*.41}
+\contentsline {listasb}{Bibliograf\'{\i }a}{37}{section*.43}
+\contentsline {listasb}{\'{I}ndice alfab\'{e}tico}{39}{section*.45}
+\contentsline {listasb}{Glosario}{39}{section*.46}
