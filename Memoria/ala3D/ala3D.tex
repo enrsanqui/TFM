@@ -1,0 +1,243 @@
+% !TEX root =../pfcTipoETSI.tex
+\chapter{Ala acuática rotativa}\LABCHAP{ala3D}
+\pagestyle{esitscCD}
+\epigraph{ }{}
+
+%\lettrine[lraise=0.7, lines=1, loversize=-0.25]{E}{l} 
+\lettrine[lraise=-0.1, lines=2, loversize=0.25]{E}{n} el capítulo anterior se demostró como es posible extrapolar los resultados obtenidos en~\cite{Evangelio2015} en un dispositivo microfluídico sin más que reproducir las condiciones en lo que al gradiente favorable de presión se refiere. De hecho, el prototipo de dispositivo generador masivo de microburbujas mostró tener un comportamiento completamente análogo en lo que a los diámetros y frecuencias de producción se refiere, deduciéndose leyes de escala prácticamente idénticas en ambos casos (véase la \SEC{resultados2D}). Sin embargo, pese a haber diseñado un dispositivo capaz de generar microburbujas de forma monodispersa de la misma forma que con la técnica de \textit{confined selective withdrawal}, la implementación de un dispositivo bidimensional para aplicaciones las tecnológicas reales que hoy en día se demandan resulta tan compleja como insuficiente. Por este motivo, en este último capítulo, nos hemos propuesto ir más allá, no sólo escalando los resultados de un perfil bidimensional al caso de un ala tridimensional de envergadura finita, sino incluyéndola dentro de un nuevo prototipo de dispositivo con un propósito tecnológico concreto. Como ya se mencionó en las primeras páginas del \CHAP{introduccion}, uno de los sectores de la industria que demanda la producción masiva de burbujas de tamaños cada vez más pequeños es el sector de la depuración de aguas, donde una reducción en el diámetro de las burbujas producidas para un caudal de aire determinado aumentaría la eficiencia en la transferencia de oxígeno, o lo que es lo mismo, dados unos requerimientos de suministro de oxígeno (\emph{Oxygen Uptake Rate} OUR), el caudal total  de aire necesario será menor cuanto menor sean los diámetros de las burbujas producidas. Teniendo en cuenta todo lo anterior, el objetivo de este capítulo será el de diseñar, fabricar y testear un prototipo de equipo de agitación y aireación, verificando cómo podrían aplicarse las leyes de escala obtenidas en el \CHAP{ala2D}.
+
+La estructura del capítulo, por lo tanto, seguirá una línea similar a la del capítulo anterior: en primer lugar se describe detalladamente en qué consiste este nuevo diseño de dispositivo, partiendo de los equipos disponibles y diseñando desde cero este nuevo prototipo; acto seguido, se mostrará cómo ha sido la campaña experimental mostrando cuál ha sido el espacio paramétrico explorado en este caso, así como los métodos de postproceso que, aunque similares, amplian los empleados en el caso bidimensional; finalmente, se mostrarán los resultados obtenidos y se tratará de escalar nuevamente el proceso con el fin de poder establecer una clara comparación entre los experimentos microfluídicos en~\cite{Evangelio2015} y los dispositivos aquí presentados.
+
+
+\section{Diseño y fabriación}\LABSEC{diseno3D}
+
+El objetivo de esta sección es describir cada uno de los componentes que configuran tanto el dispositivo generador de microburbujas como el montaje completo del experimento. Los equipos disponibles para este caso continúan siendo los mismos en lo que a la visualización y suministro de presión se refiere, sin embargo, la tridimensionalidad del problema hace imposible emplear el túnel hidrodinámico como banco de ensayos, por lo que ha sido necesario diseñar y construir un banco apto para esta aplicación. 
+
+\subsection{Esquema general del montaje}\LABSSEC{esquema}
+
+El diseño que aquí se proponga debe satisfacer varias necesidades. En principio, se trata de un equipo rotativo sencillo, consistente en dos palas unidas a un eje que gira accionado por un motor eléctrico. Algunas de las premisas del diseño son las siguientes:
+\begin{itemize}
+\item Las palas deben encontrarse sumergidas en un tanque de líquido y a la suficiente profundidad como para que el efecto de la entrefase sobre las mismas sea despreciable.
+\item   Además debe existir una distancia adecuada a las paredes del tanque con el fin de evitar impactos y velocidades inducidas por el mismo.
+\item Por otro lado, las palas deben estar formadas en su sección transversal por perfiles aerodinámicos donde existan fuertes gradientes favoralbes de presión entre el punto de remanso y el pico de succión de cada sección transversal para cada ángulo de ataque.
+\item Con el fin de explorar diferentes resultados en función del gradiente de presión, el ángulo de ataque debe poder ser regulable. 
+\item Finalmente, se debe conseguir suministrar aire desde el interior de las alas hacia el líquido, lo que deberá hacerse a través del eje de rotación, convirtiéndo al igual que en el caso bidimensional cada pala en un depósito. 
+\end{itemize} 
+
+Para cumpliar todas estas premisas, se va a describir el diseño de cada uno de los componentes por separado. 
+
+ 
+\subsection{Banco de ensayos}\LABSSEC{bancoEnsayos}
+
+El banco de ensayos para un dispositivo de las características mencionadas arriba debe consistir fundamentalmente en un tanque lleno de líquido, en este caso nuevamente agua tanto por su sencillez como por la futura aplicación del propio dispositivo\footnote{Conviene mencionar que el empleo de agua corriente del grifo, a pesar de no ser agua pura, no tiene nada que ver con el tipo de aguas encontrado en la industria de tratamiento de aguas, debido a la abundancia de partículas  y altos contenidos de ácidos como nitratos.}. Por otro lado, el tanque debe realizarse en un material transparente que permita la visualización de las burbujas producidas con el fin de poder medir los diámetros y las frecuencias de producción como se realizó en el \CHAP{ala2D}; se ha optado en este caso por el metacrilato como material de fabriación, debido a su menor coste con respecto al cristal. Aunque  un tanque de geometría cilíndrica sería una solución idónea teniendo en cuenta la axilsimetría del problema, las dificultades y coste que implican la fabriación de un tanque de metacrilato con esta geometría nos llevan a que la mejor solución para esta nueva prueba de concepto es un tanque de metacrilato de sección cuadrada. En cuanto a la altura, se ha considerado suficiente dipsponer de una altura total del tanque de 60~cm, con lo que la altura total de agua estará en torno a los 0.5~m. Con estos requerimientos, y basándose en la experiencia del fabricante, el espesor de pared recomendado no debería ser inferior al mostrado en la \TAB{medidaTanque}, con el fin de aguantar los casi 500~kg del peso del agua. 
+
+\begin{table}
+\centering
+\begin{tabular}{cccc}
+\textbf{Dimensión} & \textbf{Longitud} [m] & \textbf{Altura} [m] & \textbf{Espesor} [mm] \\
+\hline \hline
+\textbf{Valor} & 1 & 0.6 & 30 \\
+\hline
+\end{tabular}
+\caption{Medidas del tanque empleado en los experimentos del ala acuática rotativa}
+\LABTAB{medidaTanque}
+\end{table}
+
+
+Por otro lado, dado que el equipo de visualización empleado será el mismo y una vez más la interfase aire-agua imposibilitaría la visión desde arriba, la grabacion de imágenes a alta velocidad ha de efectuarse desde la zona inferior del tanque, por lo que este debe estar elevado. Para poder realizar los experimentos se requiere por tanto idear una estructura que pueda ser utilizada como banco de ensayos, debiendo la misma dar soporte para la realización de las siguientes tareas:
+
+\begin{itemize}
+\item Soporte del tanque a una altura suficiente como para poder incluir el montaje completo del equipo de visualización bajo el mismo. Esta altura debe ser la mínima posible con el fin de evitar aumentar la longitud de los pilares verticales y con ello la inestabilidad por pandeo.
+\item Soporte para el equipo rotativo en la zona superior del tanque, el cual debe soportar el peso del motor y sistema de aireación junto con los esfuerzos radiales producidos por el giro del motor. 
+\item Estabilidad ante esfuerzos en la dirección perpendicular del eje. En efecto, el movimiento creado por las palas aerodinámicas en el seno del líquido harán que el tanque experimente esfuerzos en su pared que serán, en última instancia, transmitidos a la estructura que constituye el banco de ensayos. 
+\end{itemize}
+
+De este modo, teniendo en cuenta todo lo anterior, se ha diseñado y montado una estructura con perfiles de aluminio, que aporta la rigidez y robustez necesarias para satisfacer los requerimientos arriba descritos. En la \FIG{bancoEnsayos} pueden observarse distintas perspectivas de la estructura y el tanque aquí descritos, donde puede observarse que el tanque se sitúa aproximadamente a 1~m de distancia del suelo, dejando espacio suficiente para el montaje del equipo de visualización. Además los dos últimos estantes proveen soporte para el motor eléctrico y el depósito de suministro de presión (este útlimo descrito más adelante), mientras que los perfiles en diagonal aportan la estabilidad suficiente para que, en operación, la estructura no se alabee. 
+
+\begin{figure}
+\centering
+\subfloat[Perspectiva 1]{\includegraphics[width=.5\textwidth]{bancoEnsayos1.jpg}}
+\subfloat[Perspectiva 2]{\includegraphics[width=.5\textwidth]{bancoEnsayos2.jpg}}
+\caption{Diferentes perspectivas del banco de ensayos empleado en la campaña experimental. En las figuras se muestra la estructura fabricada a base de perfiles de aluminio junto con el tanque de metacrilato en su interior.}
+\LABFIG{bancoEnsayos}
+\end{figure}
+
+
+\subsection{Diseño de las alas}\LABSSEC{disenoAlas3D}
+
+El diseño de las alas empleadas para este dispositivo será muy simiilar al empleado en el dispositivo bidimensional, por lo que muchos de los criterios de diseño seguidos en la \SSEC{disenoAla} pueden ser extrapolados a este caso. Así, por ejemplo, el perfil aerodinámico empleado será el mismo que en el caso bidimensional, es decir el perfil simétrico NACA~0012. Sin embargo, sí que existen una serie de diferencias que merece la pena pararse a detallar. La primera de ellas es que ahora no se dispone de restricciones especiales ni para la cuerda ni para la envergadura del ala, ya que cada una debe ir unida al eje a través de su brazo correspondiente, existiendo por lo tanto un único punto de sujecion situado cerca de la zona de mayor espesor de la sección transversal del ala. En este caso, dado el carácter tridimensional del problema y con la intención de poder aplicar la teoría aerodinámica general para alas esbeltas (descrita en detalle en el Apéndice %PONER AQUIE L APENDICE DE ALAS 
+), sería conveniente que su alargamiento, definido como $\Lambda = b^{2}/S$ con $b$ la envergadura y $S$ la superficie en planta, sea tal que $\Lambda > 1$. Para el caso de un ala rectangular sin estrechamiento, la expreisón del alargamiento es simplemente el cociente entre la envergadura y la cuerda, $\Lambda = b/c$, por lo que para el diseño de las palas considerado, una de las restricciones será que $b > c$.
+
+Por otro lado, la sección transversal del ala será muy similar a la del caso bidimensional del \CHAP{ala2D}, ya que el ala actuará como depósito respecto a los orificios de inyección. No obstante, en este caso la inyección de aire se realiza desde un lateral del ala en lugar de hacerla desde la zona del extradós, aprovechando el punto de conexión del ala al eje de rotación a través del brazo. En cuanto a los orificios de inyección, estos consistirán al igual que en el caso del ala bidimensional en idénticos tubos capilares de acero con ratios $D/L_{t} \ll 1$, con el fin de conseguir que la perdida de carga evite variaciones bruscas de caudal por el cambio en la velocidad o el ángulo de ataque incidentes. Una importante diferencia con respecto al caso del perfil bidimensional, es que en este caso no se explorarán diferentes zonas de inyección en torno al borde de ataque, sino que empleando los resultados mostrados en la \SSEC{posicionOrificio}, se ha decidido colocar los puntos de inyección justo en el borde de atque de cada pala. Además, se ha colocado un número mayor de puntos de inyección con la intención de analizar el comportamiento en distintos puntos de la envergadura y de emular aún más el posible de disñeo de un prototipo de dispositivo de aireación y agitación de una planta depuradora. 
+
+\begin{table}
+\centering	
+\begin{tabular}{c || c c c c c}
+\textbf{Elemento} & $\mathbf{b}\,[\mathrm{mm}]$ & $\mathbf{c}\,[\mathrm{mm}]$ & $\mathbf{D}\,[\mathrm{\mu m}]$ & $L_{t}\,[\mathrm{mm}]$ & $\mathbf{g}\,[\mathrm{mm}]$ \\
+\hline \hline 
+\textbf{Valor} & 200 & 125 & 160 & 30 & 5 \\
+\hline
+
+\end{tabular}
+\caption{Dimensiones características relevantes del diseño del ala y los orificios de inyección. El valor de $g$ en la última columna representa la distancia de separación entre los diferentes orificios a lo largo de la envergadura. }
+\LABTAB{dimensionesAla3D}
+\end{table}
+
+
+Finalmente, el diseño del ala queda completo especificando el sistema de variación de ángulo de ataque de las palas. Dado que existe un único punto de sujeción y por este pasarán no sólo los esfuerzos causados por la fuerza centrípeta sino también los ejercidos por la presión interior dentro de los tubos que confeccionan los brazos del dispositivo, parece conveniente que la unión entre las alas y los citados brazos metálicos no se haga directamente atornillando sobre la pala, puesto que el material de esta continúa siendo un polímero de ABS. En su lugar, se ha confeccionado una solución consistente en la fabriación de un perfil realizado en aluminio  idéntico al del ala, pero con un espesor mucho menor que la envergadura de esta. De este modo, el perfil sirve de nexo de unión entre el ala y eje de rotación a través del brazo. Esta pieza de aluminio, tal y como se observa en la \FIG{piezaAluminio} posee un total de 4 orificios avellanados, 3 de los cuales permiten una unión robusta del ala y el otro se atornilla mediante un tornillo hueco directamente al brazo, donde se ha realizado una rosca interna para tal fin. De este modo, simplemente girando el perfil de aluminio y apretando el mencionado tornillo, se dispone de un sistema capaz de implementar el ángulo de ataque de la pala deseado y de, a su vez, permitir el paso de aire a través de sí. Sin embargo, téngase en cuenta que el ángulo de ataque no puede ser prefijado, sino que debe medirse de forma adecuada mediante análisis posterior de imágen, similarmente al caso bidimensional. 
+
+\begin{figure}
+\centering
+\subfloat[Perspectiva en CAD del ala, con un corte longitudinal]{\includegraphics[width=.5\textwidth]{ala3DCAD.jpg}}
+\subfloat[Perspectiva ala fabricada]{\includegraphics[width=.5\textwidth]{ala3DSimple.jpg}} \\
+\subfloat[Perfil de aluminio]{\includegraphics[width=.5\textwidth]{perfilAluminio.jpg}}
+\subfloat[Perspectiva final]{\includegraphics[width=.5\textwidth]{ala3DFinal.jpg}}
+\caption{Diferentes perspectivas del diseño del ala para el prototipo de dispositivo rotatorio.}
+\end{figure}
+
+
+
+\subsection{Equipo rotativo y suministro de presión}\LABSSEC{disenoRotPres}
+
+Finalmente, se llega al último punto a completar en el diseño del prototipo dispositivo agitador y generador de microburbujas: el sistema de rotación y aireación.  El sistema de rotación es una tarea sencilla de implementar, pues basta un motor eléctrico y un eje lo sucicientemente largo (aunque no demasiado si se quieren evitar excentricidades de la carga); la única condición "especial" que debe satisfacer dicho eje es que consistea en un tubo hueco por dentro, de forma que permita el paso de aire desde el circuito de presión hasta las alas. El motor, por su parte, posee un regulador de frecuencia que permite conrolar la potencia suministrada pero e indirectamente la velocidad de rotación; la velocidad de rotación tendrá que medirse por lo tanto \textit{a posteriori}. El diseño de un adecuado sistema de suministro de presión, por otro lado, es una tarea un poco más compleja. El sistema que se ha propuesto para permitir al ala rotar al tiempo que se transporta el aire desde la red de presión hasta el interior del ala consiste en lo siguiente:
+
+\begin{itemize}
+\item Un recipiente de aluminio fabricado específcamente para el dispositivo servirá de depósito estanco, situado fuera del tanque.
+\item El depósito se encontrará alineado con el eje del motor, de forma que éste último pueda pasar a través de él. 
+\item En la tapa superior e inferior del depósito se disponen 2 rodamientos (uno a cada lado) junto con retenes para permitir al eje rotar manteniendo el depósito estanco en todo momento. 
+\item El eje posee en la zona que se encuentra en el interior del depósito unas ranuras que permiten la entrada de aire desde el depósito presurizado hacia su interior. Este aspecto implica además que el eje permanece siempre fijo respecto del depósito, esto es, tiene impedidos todos los desplazamientos incluido el paralelo a sí mismo. 
+\item El depósito se conecta directamente a un manorreductor conectado a su vez a la red de presión, por lo que la presión interior del depósito y por lo tanto del ala es controlable desde este manorreductor de forma similar a como se hizo en el dispositivo del \CHAP{ala2D}. 
+\end{itemize}
+
+En la \FIG{deposito3D} pueden observarse algunos de los detalles del diseño del depósito y de su fabriación así como el aspecto de la configuración final con el motor eléctrico.
+\begin{figure}
+\centering
+\subfloat[Corte transversal del interior del depósito]{\includegraphics[width = .5\textwidth]{depositoCAD.jpg}}
+\subfloat[Perspectiva final del depósito]{\includegraphics[width = .5\textwidth]{deposito.jpg}} \\
+\subfloat[Ensamblaje con motor]{\includegraphics[width = .8\textwdith]{composicion3D.jpg}}
+\caption{Ilustración del diseño y fabricación del depósito de rotación estanca implementado en el dispositivo generador de microburbujas propuesto.}
+\LABFIG{deposito3D}
+\end{figure}
+
+\subsection{Ensamblaje final}
+
+
+Finalmente, descritos todos los componentes que conforman el banco de ensayos y el prototipo de agitación y aireación con microburbujas que se propone, se muestra en la \FIG{ensamblajeFinal} el montaje experimental completo, donde se ha incluido además el equipo de visualización situado bajo el tanque, listo para comenzar la campaña experimental. 
+
+\begin{figure}
+\centering
+\subfloat[Ensamblaje 1]{\includegraphics[width = .5\textwidth]{ensamblaje1.jpg}}
+\subfloat[Ensamblaje 2]{\includegraphics[width = .5\textwidth]{ensamblaje2.jpg}}
+\caption{Perspectiva general del montaje experimental completo.}
+\LABFIG{ensamblajeFinal}
+\end{figure}
+
+
+
+\section{Experimentos}\LABSEC{experimentos3D}
+
+Una vez completado el diseño de todo el prototipo se está en disposicón de comenzar una exhaustiva campaña experimental que proporcione los datos  necesarios para evaluar la validez  de las leyes de escala obtenidas en el capítulo anterior. De este modo, esta sección se estructura de forma análoga a su homóloga en el \CHAP{ala2D}, mostrando en primer lugar el espacio paramétrico que se pretende explorar durante la campaña experimental y posteriormente describiendo los métodos de análisis y postproceso utilizados. Cabe destacar que estos métodos supondrán una ligera modificarción/ampliación de los ya expuestos en el capítulo anterior.
+
+
+\subsection{Campaña experimental}\LABSSEC{campanaExperimental3D}
+
+Las variables de las que dependen el diámetro y las frecuencias de producción de las burbujas para el problema tridimensional son las mismas que para el problema bidimensional, por lo que el el tipo de parámetros y el rango explorado será muy similar al del problema 2D. Las variables libres que en este problema se pueden controlar son las siguientes:
+
+\begin{itemize}
+\item Velocidad de rotación de las palas. El valor que se controla es un parámetro arbitrario de frecuencia, por lo que la velocidad de rotación debe extraerse de las imágenes grabadas.
+\item Presión en el interior del depósito. Una vez más, no es posible el control directo del caudal de inyección de aire sino que sólo se puede actuar sobre la presión interior del depósito; no obstante, la pérdida de carga generada por los tubos capilares implicará, como en el caso bidimensional, que las variaciones de presión provocadas por el aumento de velocidad del líquido y/o por el cambio de ángulo de ataque originen variaciones pequeñas de caudal de aire eyectado.
+\item Ángulo de ataque geométrico, $\alpha_{g}$. Este es el ángulo de ataque que poseen las palas con respecto a un plano de normal según la dirección del eje de rotación. 
+\end{itemize}
+
+Aunque en este caso todos los orificios han sido situados en el borde de ataque de cada sección transversal del ala, los resultados obtenidos para el diámetro y las frecuencias variarán de un orificio a otro. En efecto, si bien la presión en el interior del ala puede considerarse uniforme y el ángulo de ataque geométrico es constante para todas las secciones de la pala, existen dos magnitudes que varían con la envergadura: la velocidad local de cada sección (producto de la velocidad angular de giro, $\Omega$, y de la distancia de cada orificio al  eje de rotación, $r$, y el ángulo de ataque efectivo, $\alpha_{eff}$, definido en la teoría general de alas como $\alpha_{eff} = \alpha_{g} - \alpha_{ind}\left(y\right)$, siendo $\alpha_{ind}\left(y\right)$ el ángulo de ataque inducido por los torbellinos de punta de pala que varía a lo largo de la coordenada que recorre la envergadura, $y$, en el sistema de ejes viento tal y como se detalla en el Apéndice %AQUI VA EL APENDICE DE ALAS
+. Por lo tanto, parece necesario, para cada terna de parámetros ($\Omega, \alpha, P_{int}$) se analicen los diámetros y las frecuencias de distintos orificios a lo largo de la envergadura con el fin de poder capturar toda la fenomenología implicada en el problema. El espacio paramétrico explorado durante la campaña experimental queda resumido en la \TAB{parametros3D}
+
+\begin{table}
+\centering
+\begin{tabular}{c || c c c c}
+\textbf{Parámetros} & $\Omega$ [rpm] & $P_{int}$ [mbar] & $\alpha_{g}\,[^{\circ}]$ & $y \in $ [mm] \\
+\hline \hline
+\textbf{Valores} & 1,2,3,4 & 1,2,3,4,5 & 8,12 & [], [] ,[] \\
+\hline
+\end{tabular}
+\caption{Espacio paramétrico a explorar en la campaña experimental. La última columna representa las posiciones de los orificios que son analizados en cada vídeo, donde debe apreciarse que siempre son 3 los orificios grabados. }
+\LABTAB{parametros3D}
+\end{table}
+
+El protocolo experimental seguido en este caso para obtener una serie experimental es el siguiente:
+
+\begin{enumerate}
+\item Selección del ángulo de ataque geométrico a ensayar. El ángulo de ataque geométrico de cada pala debe ser opuesto con respecto al plano de normal según el eje de rotación, ya que se pretende evitar momentos generados en el eje por efecto de la sustentación. 
+\item Verificación mediante análisis de imágen del ángulo de ataque geométrico.
+\item Colocación de las palas e inmersión en el tanque de agua, conectando el sistema de presión para evitar la entrada de agua en el interior de las alas. 
+\item Posicionamiento de la cámara enfocando alguno de los 3 rangos de orificios especificados en la \TAB{parámetros3D}
+\item Selección de la menor velociddad de rotación a testear-
+\item Selección de la presión en el interior del depósito.
+\item Accionamiento del mecanismo de rotación espera durante el tiempo requerido para que el sistema se considere estacionario\footnote{Debe apreciarse en este caso el caracter claramente no estacionario del problema, por lo que se asume que, transcurrido un tiempo en el que todos los parámetros mantienen un valor constante, se alcanza un régimen permanente.}. 
+\item Captura vídeo doonde, al menos, haya transcurrido más de una vuelta completa del ala. Esto se sdebe a que el ala sobre la que se visualizan los resultados es aquella que posee un ángulo de ataque geométrico negativo con respecto al  plano de normal según la dirección del eje de rotación y sentido hacia el motor, por lo que se requiere al menos una vuelta completa para poder efectuar la medida de la velocidad de rotación. 
+\item Una vez terminado, cambio en la presión interna del depósito con la misma velocidad.
+\item Una vez recorrido todo el rango de presiones, cambio en la velocidad de rotación.
+\item Finalizadas todas las velocidades, volver al paso 3 y repetir todos los pasos hasta completar todos los orificios de interés. 
+\item Finalmente, cambiar el ángulo de ataque geométrico y repetir el proceso. 
+\end{enumerate}
+
+
+\subsection{Datos obtenidos y postproceso}\LABSSEC{metodos3D}
+
+Una vez se haya finalizado la campaña experimental se dispondrán dee 3 vídeos para cada orificio y terna de parámetros ($\Omega, \alpha_{g},P_{int}$). Un ejemplo ilustrativo del aspecto de estos vídeos puede observarse en la \FIG{ejemploVideo3D} donde puede comprobarse que, al igual que en el caso bidimensional, se puede emplear software de tratamiento de imágenes para medir de forma manual el diámetro de las burbujas y las frecuencias de producción, exactamente de la misma forma que se realizó en la \SSEC{metodos} y asignando un error de 2~px en la medida del diámetro. La medida de la velocidad angular de giro, por otro lado, puede obtenerse del número de frames transcurridos entre un paso de la pala y el siguiente. La medida del caudal en el problema tridimensional se efectúa de forma indirecta del mismo modo que en el caso bidimensional, esto es, aplicando la \EQ{Qgfreq} que relaciona diámetros de burbuja y frecuencia con el caudal. 
+
+
+\begin{figure}
+\centering
+\sublfloat[Orificios cerca de la punta]{\includegraphics[width = .3\textwidth]{orificioPunta.jpg}}
+\sublfloat[Orificios cerca de la punta]{\includegraphics[width = .3\textwidth]{orificioMedio.jpg}}
+\sublfloat[Orificios cerca de la punta]{\includegraphics[width = .3\textwidth]{orificioRaiz.jpg}}
+\caption{Muestra de imágenes extraídas de un vídeo realizado con $\alpha_{g} = 8^{\circ}$, $P_{int} = lo que sea$ y $\Omega = nosecuantasrpm$}
+\LABFIG{ejemploVideo3D}
+\end{figure}
+
+Hasta este punto el postprocesado de resultados resulta completamente análogo al descrito para el caso bidimensional, con la salvedad de que el número de orificios donde hay que realizar las medidas es mayor. La única variable que resta por calcular ahora es el gradiente de presión local en el orificio, es decir $P_{s}\left(\bar{s}=0\right)$. Sin embargo, no es posible emplear el código de elementos de contorno del Apéndice % TARARI
+directamente utilizando el ángulo de ataque geométrico, ya que para el caso de un ala de envergadura finita el ángulo de ataque efectivo en cada sección del perfil se puede modelar como $\alpha_{eff}\left(y\right) = \alpha_{g} - \alpha_{ind}\left(y\right)$ para el caso de un ala sin torsión. El ángulo de ataque inducido, $\alpha_{ind}\left(y\right)$ es una medida del ángulo de ataque que se deflecta la corriente incidente causado por las velocidades verticales producidas por los torbellinos de borde marginal. En efecto, justo en esta región y debido al caracter finito de la envergadura del ala, la presión en el extrados e intradós se iguala, provocando el movimiento del fluido desde el entorno del borde marginal del intradós hacia el extradós, generando de esta forma un torbellino en la punta. Este torbellino induce velocidades transversales a la corriente incidente dirigidas hacia la raíz sobre la superficie del ala, al tiempo que deflecta la corriente un ángulo $\alpha_{ind} = w_{i}/U_{\infty}$, siendo $w_{i}$ la velocidad vertical que crea el torbellino de borde marginal y que puede escribirse de la forma
+
+\begin{equation}
+w_{i}\left(y\right) = \dfrac{1}{4\pi}\int_{y=-b/2}^{y=b/2} \dfrac{\mathrm{d}\Gamma/\mathrm{d}y_{0}}{y-y_{0}}\mathrm{d}y_{0}
+\LABEQ{velInducida}
+\end{equation}
+
+siendo $\Gamma = \oint \mathbf{v}\cdot \mathbf{\mathrm{d}l}$ el valor de la circulación sobre el ala. La deducción de la \EQ{velInducida} junto con las definiciones, hipótesis realizadas y otra serie de razonamientos de obligada comprensión sobre la aerodinámica de alas de envergadura finita puede encontrarse en el Apéndice %COSAS DE ALAS
+. El ángulo de ataque inducido para cada posición $y$ de la envergadura puede obtenerse como 
+
+\begin{equation}
+\alpha_{ind}\left(y\right) = \dfrac{1}{4\pi U_{\infty}}\int_{y=-b/2}^{y=b/2} \dfrac{\mathrm{d}\Gamma/\mathrm{d}y_{0}}{y-y_{0}}\mathrm{d}y_{0}
+\LABEQ{alphaInd}
+\end{equation}
+
+En el Apéndice % COSAS DE ALAS
+se incluyen los detalles de un método numérico conocido como \emph{Vortex Lattice} que permite la resolución del problema sustentador de un ala de envergadura finita. La resolución de este problema permite conocer el valor de la circulación total $\Gamma$, de la distrubución de circulación, $\Gamma\left(y\right)$ y del ángulo de ataque inducido, $\alpha_{ind}\left(y\right)$, además de otras variables que pudieran resultar de interés. 
+
+De este modo, para el caso de un ala aislada con ángulo de ataque geométrico $\alpha_{g}$ sobre la que incide una corriente uniforme $U_{\infty}$, se podría emplear el código de elementos de contorno empleado en el \CHAP{ala2D} suministrando al programa el valor del ángulo de ataque efectivo para el perfil de la sección que se desee analizar. Sin embargo, en este problema, existen dos diferencias con respecto al caso de un ala sobre la que incide una corriente uniforme a ángulo de ataque geométrico $\alpha_{g}$: la primera es que en nuestro problema la velocidad varía de forma lineal con la distancia al eje y la segunda es que la velocidad que incide sobre una pala se encuentra perturbada por la anterior. Para solventar el primer inconveniente se propone un modelo consistente en considerar que sobre el ala incide una velocidad uniforme de valor $U_\infty \simeq \Omega\left(y_{max}+y_{min}\right)/2$, es decir, una velocidad media entre la máxima y mínima a lo largo de la envergadura. Por otro lado, el modelado de la estela tras el ala  no es un problema trivial hoy en día, por lo que se va a implementar un modelo sencillo que consiste en suponer que el ángulo inducido sobre la corriente de la pala anterior es convectado aguas abajo en la estela de torbellinos, por lo que en cada sección de la pala el ángulo de ataque efectivo será
+
+\begin{equation}
+\alpha_{eff}\left(y\right) = \alpha_{g} - 2\alpha_{ind}\left(y\right)
+\LABEQ{alphaInd}
+\end{equation}
+
+El fundamento teórico sobre el que se sustenta este modelo está basado en el Teorema de Bjerkness-Kelvin, que asegura que para el movimiento barótropo de un fluido con fuerzas conservativas el valor de la circulación alrededor de una curva cerrada permanece constante en un marco de referencia que se mueve a la velocidad del fluido, es decir,
+$\dfrac{\mathrm{D}\Gamma}{\mathrm{D}t} = 0$
+
+por lo que la circulación total sobre cada ala es el doble de la que tendría si el flujo incidente no se hallara perturbado por la estela del ala anterior. 
+
+\section{Resultados y discusión}\LABSEC{resultados3D}
+
+\subsection{Fenomenología}\LABSSEC{fenomenologia3D}
+
+\subsection{Resultados cuantitativos}\LABSSEC{resultados3D}
+
+\subsection{Escalado y conclusiones finales}\LABSSEC{escaladoFinal3D}
+
+
+
+%%%%%%%%%%%FIN
+
+
+

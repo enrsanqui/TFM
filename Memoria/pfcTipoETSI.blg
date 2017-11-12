@@ -5,6 +5,7 @@ A level-1 auxiliary file: agradecimientos/agradecimientos.aux
 A level-1 auxiliary file: resumen/resumen.aux
 A level-1 auxiliary file: notacion/notacion.aux
 A level-1 auxiliary file: introduccion/introduccion.aux
+A level-1 auxiliary file: ala2D/ala2D.aux
 The style file: amsplain.bst
 Database file #1: biblio/biblio.bib
 Warning--I didn't find a database entry for "Kilbanov2006"
@@ -13,48 +14,49 @@ Warning--I didn't find a database entry for "Rodriguez-Rordiguez2015b"
 Warning--I didn't find a database entry for "Sevilla2005a"
 Warning--I didn't find a database entry for "Gordillo2007a"
 Warning--I didn't find a database entry for "Suryo2006a"
-Warning--I didn't find a database entry for "Gordillo2013"
+Warning--I didn't find a database entry for "Evngelio2015b"
+Warning--missing journal name in Evangelio2015
 Warning--missing journal name in Postema2005
 Warning--missing journal name in Sadatomi2005
-You've used 13 entries,
+You've used 15 entries,
             2213 wiz_defined-function locations,
-            619 strings with 6747 characters,
-and the built_in function-call counts, 4553 in all, are:
-= -- 425
-> -- 211
+            630 strings with 7058 characters,
+and the built_in function-call counts, 5232 in all, are:
+= -- 489
+> -- 242
 < -- 0
-+ -- 83
-- -- 70
-* -- 451
-:= -- 734
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 75
++ -- 95
+- -- 80
+* -- 514
+:= -- 842
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 143
-empty$ -- 368
-format.name$ -- 70
-if$ -- 913
+cite$ -- 18
+duplicate$ -- 165
+empty$ -- 424
+format.name$ -- 80
+if$ -- 1050
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 26
-newline$ -- 49
-num.names$ -- 25
-pop$ -- 78
+int.to.str$ -- 15
+missing$ -- 30
+newline$ -- 55
+num.names$ -- 29
+pop$ -- 91
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 71
 quote$ -- 0
-skip$ -- 68
+skip$ -- 80
 stack$ -- 0
-substring$ -- 391
-swap$ -- 15
+substring$ -- 451
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
-warning$ -- 2
-while$ -- 49
-width$ -- 15
-write$ -- 123
-(There were 9 warnings)
+type$ -- 60
+warning$ -- 3
+while$ -- 57
+width$ -- 17
+write$ -- 139
+(There were 10 warnings)
