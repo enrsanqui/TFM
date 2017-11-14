@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.28)  12 NOV 2017 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.28)  14 NOV 2017 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3411,10 +3411,10 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
  [9
 
 ])
@@ -3913,7 +3913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
  []
 
 
-LaTeX Warning: Reference `ssec:DisenoAla' on page 15 undefined on input line 7.
+LaTeX Warning: Reference `ssec:hisenoAla' on page 15 undefined on input line 7.
 
 
 
@@ -3932,18 +3932,30 @@ LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 [15]
+<ala2D/figuras/tunel.jpg, id=811, 4047.12pt x 3035.34pt>
+File: ala2D/figuras/tunel.jpg Graphic file (type jpg)
+<use ala2D/figuras/tunel.jpg>
+Package pdftex.def Info: ala2D/figuras/tunel.jpg  used on input line 42. on inp
+ut line 42.
+Package pdftex.def Info: Requested size: 404.73572pt x 303.55179pt on input lin
+e 42.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [16 <./ala2D/figuras/tunel.jpg>]
 
-LaTeX Warning: File `ala2D/figuras/tunel.jpg' not found on input line 42.
+LaTeX Warning: File `ala2D/figuras/phantom.jpg' not found on input line 66.
 
 
-! Package pdftex.def Error: File `ala2D/figuras/tunel.jpg' not found: using dra
-ft setting.
+! Package pdftex.def Error: File `ala2D/figuras/phantom.jpg' not found: using d
+raft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 ...graphics[scale=1]{ala2D/figuras/tunel.jpg}
+l.66 ...aphics[scale=1]{ala2D/figuras/phantom.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3952,80 +3964,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+[17]
 
-LaTeX Warning: Reference `fig:phantom' on page 16 undefined on input line 62.
-
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
-[16]
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
- [17]
-
-LaTeX Warning: File `ala2D/figuras/seccionAla.jpg' not found on input line 84.
+LaTeX Warning: Reference `apen:ApA' on page 18 undefined on input line 84.
 
 
-! Package pdftex.def Error: File `ala2D/figuras/seccionAla.jpg' not found: usin
-g draft setting.
+LaTeX Warning: Reference `apen:ApB' on page 18 undefined on input line 84.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...ics[scale=1]{ala2D/figuras/seccionAla.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
+<ala2D/figuras/seccionAla.png, id=834, 707.64375pt x 354.123pt>
+File: ala2D/figuras/seccionAla.png Graphic file (type png)
+<use ala2D/figuras/seccionAla.png>
+Package pdftex.def Info: ala2D/figuras/seccionAla.png  used on input line 89. o
+n input line 89.
+Package pdftex.def Info: Requested size: 353.82101pt x 177.06105pt on input lin
+e 89.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 [18]
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+ [19 <./ala2D/figuras/seccionAla.png>]
+<ala2D/figuras/ala2D_1.jpg, id=860, 4047.12pt x 3035.34pt>
+File: ala2D/figuras/ala2D_1.jpg Graphic file (type jpg)
+<use ala2D/figuras/ala2D_1.jpg>
+Package pdftex.def Info: ala2D/figuras/ala2D_1.jpg  used on input line 128. on 
+input line 128.
+Package pdftex.def Info: Requested size: 192.0548pt x 143.99489pt on input line
+ 128.
+<ala2D/figuras/ala2D_2.jpg, id=861, 353.6412pt x 264.99pt>
+File: ala2D/figuras/ala2D_2.jpg Graphic file (type jpg)
+<use ala2D/figuras/ala2D_2.jpg>
+Package pdftex.def Info: ala2D/figuras/ala2D_2.jpg  used on input line 129. on 
+input line 129.
+Package pdftex.def Info: Requested size: 192.0548pt x 143.91327pt on input line
+ 129.
 
-LaTeX Warning: File `ala2D/figuras/ala2D_1.jpg' not found on input line 123.
-
-
-! Package pdftex.def Error: File `ala2D/figuras/ala2D_1.jpg' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ....5\textwidth]{ala2D/figuras/ala2D_1.jpg}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `ala2D/figuras/ala2D_2.jpg' not found on input line 124.
-
-
-! Package pdftex.def Error: File `ala2D/figuras/ala2D_2.jpg' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ....5\textwidth]{ala2D/figuras/ala2D_2.jpg}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
-[19]
 
 LaTeX Warning: File `ala2D/figuras/estructuraAluminio.jpg' not found on input l
-ine 147.
+ine 152.
 
 
 ! Package pdftex.def Error: File `ala2D/figuras/estructuraAluminio.jpg' not fou
@@ -4035,94 +4019,46 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 ...=1]{ala2D/figuras/estructuraAluminio.jpg}
+l.152 ...=1]{ala2D/figuras/estructuraAluminio.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-LaTeX Warning: File `ala2D/figuras/montajeAla.jpg' not found on input line 158.
-
-
-
-! Package pdftex.def Error: File `ala2D/figuras/montajeAla.jpg' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 ...guras/montajeAla.jpg}\LABFIG{montajeAla}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `ala2D/figuras/visualizacion.jpg' not found on input line 1
-59.
-
-
-! Package pdftex.def Error: File `ala2D/figuras/visualizacion.jpg' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ...visualizacion.jpg}\LABFIG{visualizacion}}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `ala2D/figuras/setupCompleto.jpg' not found on input line 1
-60.
-
-
-! Package pdftex.def Error: File `ala2D/figuras/setupCompleto.jpg' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...figuras/setupCompleto.jpg}\LABFIG{setup}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 52.74042pt on input line 163.
-
-
-LaTeX Warning: Reference `tab:parametros2D' on page 20 undefined on input line 
-172.
-
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+[20 <./ala2D/figuras/ala2D_1.jpg> <./ala2D/figuras/ala2D_2.jpg>]
+<ala2D/figuras/montajeAla.png, id=876, 934.99312pt x 711.4078pt>
+File: ala2D/figuras/montajeAla.png Graphic file (type png)
+<use ala2D/figuras/montajeAla.png>
+Package pdftex.def Info: ala2D/figuras/montajeAla.png  used on input line 163. 
+on input line 163.
+Package pdftex.def Info: Requested size: 192.0548pt x 146.12178pt on input line
+ 163.
+<ala2D/figuras/visualizacion.png, id=877, 934.99312pt x 1120.9378pt>
+File: ala2D/figuras/visualizacion.png Graphic file (type png)
+<use ala2D/figuras/visualizacion.png>
+Package pdftex.def Info: ala2D/figuras/visualizacion.png  used on input line 16
+4. on input line 164.
+Package pdftex.def Info: Requested size: 192.0548pt x 230.23845pt on input line
+ 164.
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
 LaTeX Info: Redefining \. on input line 173.
 LaTeX Info: Redefining \% on input line 173.
-[20]
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
- [21]
+ [21 <./ala2D/figuras/montajeAla.png> <./ala2D/figuras/visualizacion.png>]
 
-LaTeX Warning: Reference `tab:parametros' on page 22 undefined on input line 17
-7.
+LaTeX Warning: Reference `tab:parametros' on page 22 undefined on input line 18
+1.
 
-
-LaTeX Warning: Reference `tab:parametros' on page 22 undefined on input line 20
-3.
-
-LaTeX Info: Redefining \. on input line 209.
-LaTeX Info: Redefining \% on input line 209.
-LaTeX Info: Redefining \. on input line 209.
-LaTeX Info: Redefining \% on input line 209.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
 [22]
 
-LaTeX Warning: File `ejemploVideo.jpg' not found on input line 227.
+LaTeX Warning: File `ejemploVideo.jpg' not found on input line 232.
 
 
 ! Package pdftex.def Error: File `ejemploVideo.jpg' not found: using draft sett
@@ -4132,149 +4068,183 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 \includegraphics[scale=1]{ejemploVideo.jpg}
+l.232 \includegraphics[scale=1]{ejemploVideo.jpg}
                                                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
 [23]
-! Undefined control sequence.
-l.259 ...o que, como se comentó al final del \CAP
-                                                  {introduccion}, existe la ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `apen:ApA' on page 24 undefined on input line 257.
 
 
-LaTeX Warning: File `orificioAdverso.jpg' not found on input line 267.
+LaTeX Warning: Reference `chap:introduccion' on page 24 undefined on input line
+ 262.
 
 
-! Package pdftex.def Error: File `orificioAdverso.jpg' not found: using draft s
-etting.
+LaTeX Warning: File `ala2D/figuras/orificioAdverso.jpg' not found on input line
+ 270.
+
+
+! Package pdftex.def Error: File `ala2D/figuras/orificioAdverso.jpg' not found:
+ using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.267 ...udegraphics[scale=1]{orificioAdverso.jpg}
+l.270 ...ale=1]{ala2D/figuras/orificioAdverso.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
-LaTeX Info: Redefining \. on input line 277.
-LaTeX Info: Redefining \% on input line 277.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
+LaTeX Info: Redefining \. on input line 276.
+LaTeX Info: Redefining \% on input line 276.
 [24]
 
-LaTeX Warning: Reference `fig:cpGrados' on page 25 undefined on input line 278.
+LaTeX Warning: Reference `fig:cpGrados' on page 25 undefined on input line 277.
 
 
 
-LaTeX Warning: Reference `fig:cpGrados' on page 25 undefined on input line 278.
+LaTeX Warning: Reference `fig:cpGrados' on page 25 undefined on input line 277.
 
 
 
-LaTeX Warning: File `posicionOrificios.jpg' not found on input line 283.
+LaTeX Warning: File `ala2D/figuras/posicionOrificios.jpg' not found on input li
+ne 282.
 
 
-! Package pdftex.def Error: File `posicionOrificios.jpg' not found: using draft
- setting.
+! Package pdftex.def Error: File `ala2D/figuras/posicionOrificios.jpg' not foun
+d: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.283 ...egraphics[scale=1]{posicionOrificios.jpg}
+l.282 ...e=1]{ala2D/figuras/posicionOrificios.jpg}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `apen:ApA' on page 25 undefined on input line 285.
+
+
+LaTeX Warning: Reference `apen:ApA' on page 25 undefined on input line 285.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `math shift' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 290.
+(hyperref)                removing `subscript' on input line 289.
 
 
-LaTeX Warning: File `videoQg2D1.jpg' not found on input line 296.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 289.
 
 
-! Package pdftex.def Error: File `videoQg2D1.jpg' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 ...cs[width = .5\textwidth]{videoQg2D1.jpg}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\infty' on input line 289.
 
 
-LaTeX Warning: File `videoQg2D2.jpg' not found on input line 297.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 289.
 
 
-! Package pdftex.def Error: File `videoQg2D2.jpg' not found: using draft settin
-g.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 289.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.297 ...cs[width = .5\textwidth]{videoQg2D2.jpg}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
-LaTeX Info: Redefining \. on input line 304.
-LaTeX Info: Redefining \% on input line 304.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 289.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 289.
+
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 [25]
 
-LaTeX Warning: File `videoUinf2D1.jpg' not found on input line 308.
+LaTeX Warning: File `ala2D/figuras/videoQg2D1.jpg' not found on input line 295.
 
 
-! Package pdftex.def Error: File `videoUinf2D1.jpg' not found: using draft sett
-ing.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 ...[width = .5\textwidth]{videoUinf2D1.jpg}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `videoUinf2D2.jpg' not found on input line 309.
-
-
-! Package pdftex.def Error: File `videoUinf2D2.jpg' not found: using draft sett
-ing.
+! Package pdftex.def Error: File `ala2D/figuras/videoQg2D1.jpg' not found: usin
+g draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 ...[width = .5\textwidth]{videoUinf2D2.jpg}}
+l.295 ...textwidth]{ala2D/figuras/videoQg2D1.jpg}}
+                                                  \hspace{1mm}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ala2D/figuras/videoQg2D2.jpg' not found on input line 296.
+
+
+
+! Package pdftex.def Error: File `ala2D/figuras/videoQg2D2.jpg' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 ...textwidth]{ala2D/figuras/videoQg2D2.jpg}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `videoAlpha2D1.jpg' not found on input line 316.
+LaTeX Warning: File `ala2D/figuras/videoUinf2D1.jpg' not found on input line 30
+7.
+
+
+! Package pdftex.def Error: File `ala2D/figuras/videoUinf2D1.jpg' not found: us
+ing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 ...xtwidth]{ala2D/figuras/videoUinf2D1.jpg}}
+                                                   \hspace{1mm}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ala2D/figuras/videoUinf2D2.jpg' not found on input line 30
+8.
+
+
+! Package pdftex.def Error: File `ala2D/figuras/videoUinf2D2.jpg' not found: us
+ing draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 ...xtwidth]{ala2D/figuras/videoUinf2D2.jpg}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `videoAlpha2D1.jpg' not found on input line 315.
 
 
 ! Package pdftex.def Error: File `videoAlpha2D1.jpg' not found: using draft set
@@ -4284,13 +4254,13 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.316 ...width = .5\textwidth]{videoAlpha2D1.jpg}}
+l.315 ...width = .5\textwidth]{videoAlpha2D1.jpg}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `videoAlpha2D2.jpg' not found on input line 317.
+LaTeX Warning: File `videoAlpha2D2.jpg' not found on input line 316.
 
 
 ! Package pdftex.def Error: File `videoAlpha2D2.jpg' not found: using draft set
@@ -4300,129 +4270,125 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 ...width = .5\textwidth]{videoAlpha2D2.jpg}}
+l.316 ...width = .5\textwidth]{videoAlpha2D2.jpg}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: Reference `fig:resultadosimensionales2D' on page 26 undefined on
- input line 323.
+ input line 322.
 
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
+[26]
+LaTeX Info: Redefining \. on input line 329.
+LaTeX Info: Redefining \% on input line 329.
+LaTeX Info: Redefining \. on input line 329.
+LaTeX Info: Redefining \% on input line 329.
+ [27]
 
-Underfull \vbox (badness 2894) has occurred while \output is active []
+LaTeX Warning: File `ala2D/figuras/dbQgU1.eps' not found on input line 332.
 
-LaTeX Info: Redefining \. on input line 330.
-LaTeX Info: Redefining \% on input line 330.
-LaTeX Info: Redefining \. on input line 330.
-LaTeX Info: Redefining \% on input line 330.
- [26]
+Package epstopdf Info: Source file: <ala2D/figuras/dbQgU1.eps>
+(epstopdf)             Output file: <ala2D/figuras/dbQgU1-eps-converted-to.pdf>
 
-LaTeX Warning: File `dbQgU1.eps' not found on input line 333.
-
-Package epstopdf Info: Source file: <dbQgU1.eps>
-(epstopdf)             Output file: <dbQgU1-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=dbQgU1-eps-converted-to.pd
-f dbQgU1.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             Command: <repstopdf --outfile=ala2D/figuras/dbQgU1-eps-c
+onverted-to.pdf ala2D/figuras/dbQgU1.eps>
+(epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `dbQgU1-eps-converted-to.pdf' not found: using
- draft setting.
+! Package pdftex.def Error: File `ala2D/figuras/dbQgU1-eps-converted-to.pdf' no
+t found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.333 ....5\textwidth]{dbQgU1.eps}\LABFIG{dbQgU1}}
+l.332 ...ala2D/figuras/dbQgU1.eps}\LABFIG{dbQgU1}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `dbQgU2.eps' not found on input line 334.
+LaTeX Warning: File `ala2D/figuras/dbQgU2.eps' not found on input line 333.
 
-Package epstopdf Info: Source file: <dbQgU2.eps>
-(epstopdf)             Output file: <dbQgU2-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=dbQgU2-eps-converted-to.pd
-f dbQgU2.eps>
-(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Source file: <ala2D/figuras/dbQgU2.eps>
+(epstopdf)             Output file: <ala2D/figuras/dbQgU2-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=ala2D/figuras/dbQgU2-eps-c
+onverted-to.pdf ala2D/figuras/dbQgU2.eps>
+(epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `dbQgU2-eps-converted-to.pdf' not found: using
- draft setting.
+! Package pdftex.def Error: File `ala2D/figuras/dbQgU2-eps-converted-to.pdf' no
+t found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.334 ....5\textwidth]{dbQgU2.eps}\LABFIG{dbQgU2}}
+l.333 ...ala2D/figuras/dbQgU2.eps}\LABFIG{dbQgU2}}
                                                   \\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `dbQgU1.eps' not found on input line 335.
+LaTeX Warning: File `ala2D/figuras/dbQgU1.eps' not found on input line 334.
 
-Package epstopdf Info: Source file: <dbQgU1.eps>
-(epstopdf)             Output file: <dbQgU1-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=dbQgU1-eps-converted-to.pd
-f dbQgU1.eps>
+Package epstopdf Info: Source file: <ala2D/figuras/dbQgU1.eps>
+(epstopdf)             Output file: <ala2D/figuras/dbQgU1-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=ala2D/figuras/dbQgU1-eps-c
+onverted-to.pdf ala2D/figuras/dbQgU1.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+
+! Package pdftex.def Error: File `ala2D/figuras/dbQgU1-eps-converted-to.pdf' no
+t found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 ...ala2D/figuras/dbQgU1.eps}\LABFIG{fbQgU1}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `ala2D/figuras/dbQgU2.eps' not found on input line 335.
+
+Package epstopdf Info: Source file: <ala2D/figuras/dbQgU2.eps>
+(epstopdf)             Output file: <ala2D/figuras/dbQgU2-eps-converted-to.pdf>
+
+(epstopdf)             Command: <repstopdf --outfile=ala2D/figuras/dbQgU2-eps-c
+onverted-to.pdf ala2D/figuras/dbQgU2.eps>
 (epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-! Package pdftex.def Error: File `dbQgU1-eps-converted-to.pdf' not found: using
- draft setting.
+! Package pdftex.def Error: File `ala2D/figuras/dbQgU2-eps-converted-to.pdf' no
+t found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.335 ....5\textwidth]{dbQgU1.eps}\LABFIG{fbQgU1}}
+l.335 ...ala2D/figuras/dbQgU2.eps}\LABFIG{fbQgU2}}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `dbQgU2.eps' not found on input line 336.
-
-Package epstopdf Info: Source file: <dbQgU2.eps>
-(epstopdf)             Output file: <dbQgU2-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=dbQgU2-eps-converted-to.pd
-f dbQgU2.eps>
-(epstopdf)             \includegraphics on input line 336.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `dbQgU2-eps-converted-to.pdf' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 ....5\textwidth]{dbQgU2.eps}\LABFIG{fbQgU2}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-[27]
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
- [28]
-
-LaTeX Warning: File `escaladoFinal2D.eps' not found on input line 373.
+LaTeX Warning: File `escaladoFinal2D.eps' not found on input line 371.
 
 Package epstopdf Info: Source file: <escaladoFinal2D.eps>
 (epstopdf)             Output file: <escaladoFinal2D-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=escaladoFinal2D-eps-conver
 ted-to.pdf escaladoFinal2D.eps>
-(epstopdf)             \includegraphics on input line 373.
+(epstopdf)             \includegraphics on input line 371.
 Package epstopdf Info: Output file is already uptodate.
 
 ! Package pdftex.def Error: File `escaladoFinal2D-eps-converted-to.pdf' not fou
@@ -4432,7 +4398,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.373 ...udegraphics[scale=1]{escaladoFinal2D.eps}
+l.371 ...udegraphics[scale=1]{escaladoFinal2D.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4442,14 +4408,20 @@ LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
 LaTeX Info: Redefining \. on input line 167.
 LaTeX Info: Redefining \% on input line 167.
+ [28]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
  [29]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+ [30]
 \openout2 = `ala3D/ala3D.aux'.
 
- (./ala3D/ala3D.tex [30
-
-
-
-]
+ (./ala3D/ala3D.tex
 chapter 3.
 
 ! LaTeX Error: There's no line here to end.
@@ -4480,7 +4452,11 @@ LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [31]
+ [31
+
+
+
+]
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
 LaTeX Info: Redefining \. on input line 56.
@@ -4900,7 +4876,29 @@ LaTeX Info: Redefining \. on input line 171.
 LaTeX Info: Redefining \% on input line 171.
 LaTeX Info: Redefining \. on input line 171.
 LaTeX Info: Redefining \% on input line 171.
- [39] [40
+ [39]
+\openout2 = `apendices/apendices.aux'.
+
+ (./apendices/apendices.tex [40
+
+
+
+]
+chapter A.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+[41] [42
+
+]
+chapter B.
+)
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+ [43] [44
 
 
 
@@ -4912,14 +4910,37 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
- [41
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+ [45
 
 
-])
+]
+
+LaTeX Warning: Reference `apen:ApA' on page 46 undefined on input line 33.
+
+
+Underfull \vbox (badness 6741) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ [46])
 \tf@lof=\write10
 \openout10 = `pfcTipoETSI.lof'.
 
@@ -4927,7 +4948,10 @@ LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
 LaTeX Info: Redefining \. on input line 199.
 LaTeX Info: Redefining \% on input line 199.
- [42]
+
+[47] [48
+
+]
 Package tocbasic Info: character protrusion at lot deactivated on input line 20
 3.
  (./pfcTipoETSI.lot
@@ -4943,16 +4967,14 @@ LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
 LaTeX Info: Redefining \. on input line 206.
 LaTeX Info: Redefining \% on input line 206.
- [43
+ [49
 
-
-] [44
+] [50
 
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 21
 0.
-
-(./pfcTipoETSI.lol
+ (./pfcTipoETSI.lol
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -4963,18 +4985,19 @@ LaTeX Info: Redefining \. on input line 213.
 LaTeX Info: Redefining \% on input line 213.
 LaTeX Info: Redefining \. on input line 213.
 LaTeX Info: Redefining \% on input line 213.
- [45
+ [51
 
-] [46
+] [52
 
-] (./pfcTipoETSI.bbl)
+]
+(./pfcTipoETSI.bbl)
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
 LaTeX Info: Redefining \. on input line 226.
 LaTeX Info: Redefining \% on input line 226.
- [47
+ [53
 
-] [48
+] [54
 
 ]
 No file pfcTipoETSI.ind.
@@ -4984,7 +5007,7 @@ LaTeX Info: Redefining \. on input line 240.
 LaTeX Info: Redefining \% on input line 240.
 LaTeX Info: Redefining \. on input line 240.
 LaTeX Info: Redefining \% on input line 240.
-[49
+[55
 
 
 ]
@@ -5008,7 +5031,8 @@ LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
  (./agradecimientos/agradecimientos.aux)
 (./resumen/resumen.aux) (./notacion/notacion.aux)
-(./introduccion/introduccion.aux) (./ala2D/ala2D.aux) (./ala3D/ala3D.aux))
+(./introduccion/introduccion.aux) (./ala2D/ala2D.aux) (./ala3D/ala3D.aux)
+(./apendices/apendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 240.
 
@@ -5021,11 +5045,11 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred when \iftrue on line 455 was incomplete) 
 Here is how much of TeX's memory you used:
- 68771 strings out of 492990
- 1521668 string characters out of 6135004
- 1976737 words of memory out of 5000000
- 70465 multiletter control sequences out of 15000+600000
- 671980 words of font info for 241 fonts, out of 8000000 for 9000
+ 68864 strings out of 492990
+ 1523446 string characters out of 6135004
+ 1976804 words of memory out of 5000000
+ 70531 multiletter control sequences out of 15000+600000
+ 678256 words of font info for 249 fonts, out of 8000000 for 9000
  1162 hyphenation exceptions out of 8191
  83i,18n,134p,10428b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/
@@ -5048,10 +5072,10 @@ rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pfcTipoETSI.pdf (67 pages, 1624531 bytes).
+Output written on pfcTipoETSI.pdf (73 pages, 13203383 bytes).
 PDF statistics:
- 1582 PDF objects out of 1728 (max. 8388607)
- 1322 compressed objects within 14 object streams
- 267 named destinations out of 1000 (max. 500000)
- 41050 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1629 PDF objects out of 1728 (max. 8388607)
+ 1355 compressed objects within 14 object streams
+ 276 named destinations out of 1000 (max. 500000)
+ 42632 words of extra memory for PDF output out of 42996 (max. 10000000)
 
